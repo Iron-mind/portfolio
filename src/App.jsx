@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import './App.css'
+import profileImage from './assets/profile.jpg'
+import { useMemo } from 'react'
 
 const content = {
   en: {
@@ -116,9 +118,9 @@ const content = {
     contactSection: {
       aboutTitle: 'ABOUT_ME',
       aboutP1:
-        'Systems architecture specialist with an obsession for code efficiency and high-performance interface design. My approach focuses on the intersection of brutalist aesthetics and precision engineering.',
+        'I am a Full Stack Developer with 3 years of experience, specialized in building and optimizing web applications using technologies such as React, Node.js, Express, Sequelize, PostgreSQL, and Git. I have experience applying agile methodologies like SCRUM to deliver efficient and high-quality solutions.',
       aboutP2:
-        'I have spent the last decade decoding complex problems and turning them into elegant digital solutions. For me, code is not just a tool, it is an artistic language that can redefine digital reality.',
+        'I am a Systems Engineer with a strong focus on web development, a path I chose from my academic background. Throughout this trajectory, I have worked on diverse projects that have strengthened my technical profile and provided me with practical experience with modern technologies such as Vite, Redis, and React.',
       github: 'GITHUB',
       linkedin: 'LINKEDIN',
       cv: 'CV_ARCHIVE',
@@ -253,9 +255,9 @@ const content = {
     contactSection: {
       aboutTitle: 'SOBRE_MI',
       aboutP1:
-        'Especialista en arquitectura de sistemas con una obsesion por la eficiencia del codigo y el diseno de interfaces de alto rendimiento. Mi enfoque se centra en la interseccion entre la estetica brutalista y la ingenieria de precision.',
+        'Soy Desarrollador Full Stack con 3 años de experiencia, especializado en la construcción y optimización de aplicaciones web utilizando tecnologías como React, Node.js, Express, Sequelize, PostgreSQL y Git. Cuento con experiencia en la aplicación de metodologías ágiles como SCRUM para entregar soluciones eficientes y de alta calidad.',
       aboutP2:
-        'He pasado la ultima decada descifrando problemas complejos y transformandolos en soluciones digitales elegantes. Para mi, el codigo no es solo una herramienta, es un lenguaje artistico que permite redefinir la realidad digital.',
+        'Soy Ingeniero de Sistemas con un fuerte enfoque en el desarrollo web, un camino que elegí desde mi formación académica. A lo largo de esta trayectoria, he trabajado en diversos proyectos que han fortalecido mi perfil técnico y me han brindado experiencia práctica con tecnologías modernas como Vite, Redis y React.',
       github: 'GITHUB',
       linkedin: 'LINKEDIN',
       cv: 'CV_ARCHIVE',
@@ -284,6 +286,14 @@ function App() {
   const [language, setLanguage] = useState('en')
 
   const locale = content[language]
+
+  // 1. Memoize the year calculation
+  const yearsOfExperience = useMemo(() => {
+    const startDate = Temporal.PlainDate.from('2022-08-01')
+    const today = Temporal.Now.plainDateISO()
+    const duration = startDate.until(today, { largestUnit: 'month' })
+    return Math.floor(duration.months / 12)
+  }, [])
 
   useEffect(() => {
     const canvas = canvasRef.current
@@ -458,7 +468,7 @@ function App() {
                   <span className="material-symbols-outlined">terminal</span>
                   <h2>{locale.contactSection.aboutTitle}</h2>
                 </div>
-                <p>{locale.contactSection.aboutP1}</p>
+                <p>{locale.contactSection.aboutP1.replace('3', yearsOfExperience)}</p>
                 <p>{locale.contactSection.aboutP2}</p>
                 <div className="about-actions">
                   <a className="cta-ghost" href="#">
@@ -520,7 +530,7 @@ function App() {
             <div className="hero-card glass">
               <div className="hero-avatar">
                 <img
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLF936j3NestePlVg75jevnaRDtnIBdNccnwwxN5qaC9hYmnQoLz_39RwFdaSC3-hUt3E-mVqHon_xoSJDHbk9BmXkSQ_QJ0-pTVWrs2haYolUtMlE20U1T3WE9K1T5wjnl21zQrkEqP3Xg0W6S0tV7kG0KQ0ZLK6r1ii8zq1cKQxxON9ApbEx7YnWcZoQ90asQfqXRl-GE0-MIejcIO0kwhuiqpGSTBn0SoewYoXzN3CscrPpIP5XOdilzqJAXpu1TG3sAWT-OIU"
+                  src={profileImage}
                   alt="Developer portrait"
                 />
                 <span className="avatar-badge material-symbols-outlined">terminal</span>
