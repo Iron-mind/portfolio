@@ -264,7 +264,7 @@ const content = {
       techStack: 'TECH_STACK',
       experience: 'EXPERIENCE',
       role: 'FULL_STACK',
-      years: '12_YEARS',
+
       contactTitle: 'CONTACTO',
       userId: 'USER_ID',
       namePlaceholder: 'Ingresa tu nombre...',
@@ -491,7 +491,7 @@ function App() {
                   </div>
                   <div>
                     <span>// {locale.contactSection.experience}</span>
-                    <strong>{locale.contactSection.years}</strong>
+                    <strong>{yearsOfExperience}_YEARS</strong>
                   </div>
                 </div>
               </div>
