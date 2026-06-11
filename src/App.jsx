@@ -78,41 +78,66 @@ const content = {
       },
     ],
     profileSection: {
-      title: 'SYSTEM_PROFILE',
-      description:
-        'Development of a virtual attendance system and management of critical data architecture for high-availability environments.',
-      coreCompetencies: 'CORE_COMPETENCIES',
-      executionHistory: 'EXECUTION_HISTORY',
-      systemStatus: 'SYSTEM_STATUS:',
-      operational: 'OPERATIONAL_EXCELLENCE',
+      title: 'PROFESSIONAL EXPERIENCE',
+      description: 'Full Stack Developer with expertise in modern web technologies and scalable architectures.',
+      coreCompetencies: 'CORE COMPETENCIES',
+      executionHistory: 'PROFESSIONAL HISTORY',
     },
-    skills: [
-      { label: 'BACKEND_ARCH', value: 92 },
-      { label: 'CLOUD_INFRA', value: 85 },
-      { label: 'CYBER_SECURITY', value: 78 },
-      { label: 'NEURAL_NETS', value: 64 },
-    ],
+    competencies: {
+      advanced: ['JavaScript', 'React.js', 'Node.js', 'Express', 'Sequelize.js', 'PostgreSQL', 'Tailwind CSS', 'Git'],
+      intermediate: ['NestJS', 'Angular', 'Vite', 'SQL Server', 'MySQL', 'TypeORM', 'MongoDB / Mongoose', 'Redux.js', 'CSS3 / HTML5'],
+      basic: ['RxJS', 'NgRx', 'Next.js', 'Three.js / React-Three-Fiber'],
+    },
     timeline: [
       {
-        period: '2022 - PRESENT',
-        role: 'LEAD_ARCHITECT',
-        title: 'Virtual Ticketing Systems Corp.',
+        period: 'Dec 2025 - Mar 2026',
+        role: 'Full-Stack Developer',
+        title: 'Levva IA Software (Freelance)',
         description:
-          'Deployment of distributed infrastructures and latency optimization for biometric access control systems at global scale.',
+          'Desarrollo de un proyecto SaaS desde cero (greenfield), definiendo la arquitectura del sistema y bases técnicas enfocadas en escalabilidad, seguridad y flujos orientados a agentes de IA. Diseño e implementación de modelos de datos relacionales con MySQL y Sequelize. Creación de funcionalidades completas utilizando NestJS, React, Vite y Tailwind (sistemas de reportes, notificaciones y servicios de correo). Implementación de mecanismos de seguridad como RBAC, MFA y encriptación.',
+        highlights: [
+          'Desarrollo de un proyecto SaaS desde cero (greenfield), definiendo la arquitectura del sistema y bases técnicas enfocadas en escalabilidad, seguridad y flujos orientados a agentes de IA.',
+          'Diseño e implementación de modelos de datos relacionales con MySQL y Sequelize.',
+          'Creación de funcionalidades completas utilizando NestJS, React, Vite y Tailwind (sistemas de reportes, notificaciones y servicios de correo).',
+          'Implementación de mecanismos de seguridad como RBAC (control de acceso basado en roles), MFA y encriptación de datos en tránsito y en reposo.',
+        ],
       },
       {
-        period: '2019 - 2022',
-        role: 'SENIOR_DEV',
-        title: 'Neural Link Logistics',
+        period: 'Apr 2024 - Dec 2025',
+        role: 'Full-Stack Developer Jr',
+        title: 'Justo Pago',
         description:
-          'Implementation of computer vision models for automation in smart warehouses and asset traceability.',
+          'Desarrollo de nuevas funcionalidades y optimización de consultas en la base de datos para asegurar sincronización en tiempo real con SQL Server y TypeORM. Implementación de una función de chat interactivo integrando React, Tailwind, NestJS y MongoDB. Diseño de sistemas de notificaciones automatizadas por WhatsApp y email bajo una arquitectura guiada por eventos (pub/sub). Creación y actualización de interfaces de usuario dinámicas empleando Next.js, React y NestJS.',
+        highlights: [
+          'Desarrollo de nuevas funcionalidades y optimización de consultas en la base de datos para asegurar sincronización en tiempo real con SQL Server y TypeORM.',
+          'Implementación de una función de chat interactivo integrando React, Tailwind, NestJS y MongoDB.',
+          'Diseño de sistemas de notificaciones automatizadas por WhatsApp y email bajo una arquitectura guiada por eventos (pub/sub).',
+          'Creación y actualización de interfaces de usuario dinámicas empleando Next.js, React y NestJS.',
+        ],
       },
       {
-        period: '2015 - 2019',
-        role: 'ACADEMIC_INIT',
-        title: 'Technical Institute of Cybernetics',
+        period: 'Aug 2023 - Nov 2023',
+        role: 'Full-Stack Developer',
+        title: 'Xirectds',
         description:
-          'Higher Technical Certificate in Cross-Platform Application Development with a specialization in operating system security.',
+          'Contribución desde cero en la creación del Producto Mínimo Viable (MVP) para la plataforma web de gestión de prospectos Soxial Leads. Desarrollo y maquetación de la interfaz de usuario utilizando Next.js, React y NestJS. Modificaciones a nivel de base de datos e interacciones mediante TypeORM y SQL Server.',
+        highlights: [
+          'Contribución desde cero en la creación del Producto Mínimo Viable (MVP) para la plataforma web de gestión de prospectos Soxial Leads.',
+          'Desarrollo y maquetación de la interfaz de usuario utilizando Next.js, React y NestJS.',
+          'Modificaciones a nivel de base de datos e interacciones mediante TypeORM y SQL Server.',
+        ],
+      },
+      {
+        period: 'Aug 2022 - Feb 2023',
+        role: 'Full-Stack Developer Jr',
+        title: 'Kargoru',
+        description:
+          'Desarrollo de la interfaz de usuario y vistas web con alta interactividad utilizando Angular, RxJS y NgRx. Integración y automatización de notificaciones por correo y WhatsApp conectando lógicas en NestJS y Mongoose. Integración de plataformas, APIs y pasarelas externas, incluyendo WordPress y pasarelas de carga.',
+        highlights: [
+          'Desarrollo de la interfaz de usuario y vistas web con alta interactividad utilizando Angular, RxJS y NgRx.',
+          'Integración y automatización de notificaciones por correo y WhatsApp conectando lógicas en NestJS y Mongoose.',
+          'Integración de plataformas, APIs y pasarelas externas, incluyendo WordPress y pasarelas de carga (sucarga.com).',
+        ],
       },
     ],
     contactSection: {
@@ -215,41 +240,66 @@ const content = {
       },
     ],
     profileSection: {
-      title: 'PERFIL_SISTEMA',
-      description:
-        'Desarrollo de un sistema virtual de fichaje y gestion de arquitectura de datos critica para entornos de alta disponibilidad.',
-      coreCompetencies: 'COMPETENCIAS_CLAVE',
-      executionHistory: 'HISTORIAL_EJECUCION',
-      systemStatus: 'ESTADO_SISTEMA:',
-      operational: 'EXCELENCIA_OPERATIVA',
+      title: 'EXPERIENCIA PROFESIONAL',
+      description: 'Desarrollador Full Stack con experiencia en tecnologías web modernas y arquitecturas escalables.',
+      coreCompetencies: 'COMPETENCIAS CLAVE',
+      executionHistory: 'HISTORIAL PROFESIONAL',
     },
-    skills: [
-      { label: 'BACKEND_ARCH', value: 92 },
-      { label: 'CLOUD_INFRA', value: 85 },
-      { label: 'CYBER_SECURITY', value: 78 },
-      { label: 'NEURAL_NETS', value: 64 },
-    ],
+    competencies: {
+      advanced: ['JavaScript', 'React.js', 'Node.js', 'Express', 'Sequelize.js', 'PostgreSQL', 'Tailwind CSS', 'Git'],
+      intermediate: ['NestJS', 'Angular', 'Vite', 'SQL Server', 'MySQL', 'TypeORM', 'MongoDB / Mongoose', 'Redux.js', 'CSS3 / HTML5'],
+      basic: ['RxJS', 'NgRx', 'Next.js', 'Three.js / React-Three-Fiber'],
+    },
     timeline: [
       {
-        period: '2022 - ACTUALIDAD',
-        role: 'LEAD_ARCHITECT',
-        title: 'Virtual Ticketing Systems Corp.',
+        period: 'Dic 2025 - Mar 2026',
+        role: 'Desarrollador Full-Stack',
+        title: 'Levva IA Software (Freelance)',
         description:
-          'Despliegue de infraestructuras distribuidas y optimizacion de latencia para sistemas de control de acceso biometrico a escala global.',
+          'Desarrollo de un proyecto SaaS desde cero (greenfield), definiendo la arquitectura del sistema y bases técnicas enfocadas en escalabilidad, seguridad y flujos orientados a agentes de IA. Diseño e implementación de modelos de datos relacionales con MySQL y Sequelize. Creación de funcionalidades completas utilizando NestJS, React, Vite y Tailwind (sistemas de reportes, notificaciones y servicios de correo). Implementación de mecanismos de seguridad como RBAC, MFA y encriptación.',
+        highlights: [
+          'Desarrollo de un proyecto SaaS desde cero (greenfield), definiendo la arquitectura del sistema y bases técnicas enfocadas en escalabilidad, seguridad y flujos orientados a agentes de IA.',
+          'Diseño e implementación de modelos de datos relacionales con MySQL y Sequelize.',
+          'Creación de funcionalidades completas utilizando NestJS, React, Vite y Tailwind (sistemas de reportes, notificaciones y servicios de correo).',
+          'Implementación de mecanismos de seguridad como RBAC (control de acceso basado en roles), MFA y encriptación de datos en tránsito y en reposo.',
+        ],
       },
       {
-        period: '2019 - 2022',
-        role: 'SENIOR_DEV',
-        title: 'Neural Link Logistics',
+        period: 'Abr 2024 - Dic 2025',
+        role: 'Desarrollador Full-Stack Jr',
+        title: 'Justo Pago',
         description:
-          'Implementacion de modelos de vision artificial para la automatizacion de almacenes inteligentes y trazabilidad de activos.',
+          'Desarrollo de nuevas funcionalidades y optimización de consultas en la base de datos para asegurar sincronización en tiempo real con SQL Server y TypeORM. Implementación de una función de chat interactivo integrando React, Tailwind, NestJS y MongoDB. Diseño de sistemas de notificaciones automatizadas por WhatsApp y email bajo una arquitectura guiada por eventos (pub/sub). Creación y actualización de interfaces de usuario dinámicas empleando Next.js, React y NestJS.',
+        highlights: [
+          'Desarrollo de nuevas funcionalidades y optimización de consultas en la base de datos para asegurar sincronización en tiempo real con SQL Server y TypeORM.',
+          'Implementación de una función de chat interactivo integrando React, Tailwind, NestJS y MongoDB.',
+          'Diseño de sistemas de notificaciones automatizadas por WhatsApp y email bajo una arquitectura guiada por eventos (pub/sub).',
+          'Creación y actualización de interfaces de usuario dinámicas empleando Next.js, React y NestJS.',
+        ],
       },
       {
-        period: '2015 - 2019',
-        role: 'ACADEMIC_INIT',
-        title: 'Technical Institute of Cybernetics',
+        period: 'Ago 2023 - Nov 2023',
+        role: 'Desarrollador Full-Stack',
+        title: 'Xirectds',
         description:
-          'Grado Superior en Desarrollo de Aplicaciones Multiplataforma con especializacion en seguridad de sistemas operativos.',
+          'Contribución desde cero en la creación del Producto Mínimo Viable (MVP) para la plataforma web de gestión de prospectos Soxial Leads. Desarrollo y maquetación de la interfaz de usuario utilizando Next.js, React y NestJS. Modificaciones a nivel de base de datos e interacciones mediante TypeORM y SQL Server.',
+        highlights: [
+          'Contribución desde cero en la creación del Producto Mínimo Viable (MVP) para la plataforma web de gestión de prospectos Soxial Leads.',
+          'Desarrollo y maquetación de la interfaz de usuario utilizando Next.js, React y NestJS.',
+          'Modificaciones a nivel de base de datos e interacciones mediante TypeORM y SQL Server.',
+        ],
+      },
+      {
+        period: 'Ago 2022 - Feb 2023',
+        role: 'Desarrollador Full-Stack Jr',
+        title: 'Kargoru',
+        description:
+          'Desarrollo de la interfaz de usuario y vistas web con alta interactividad utilizando Angular, RxJS y NgRx. Integración y automatización de notificaciones por correo y WhatsApp conectando lógicas en NestJS y Mongoose. Integración de plataformas, APIs y pasarelas externas, incluyendo WordPress y pasarelas de carga.',
+        highlights: [
+          'Desarrollo de la interfaz de usuario y vistas web con alta interactividad utilizando Angular, RxJS y NgRx.',
+          'Integración y automatización de notificaciones por correo y WhatsApp conectando lógicas en NestJS y Mongoose.',
+          'Integración de plataformas, APIs y pasarelas externas, incluyendo WordPress y pasarelas de carga (sucarga.com).',
+        ],
       },
     ],
     contactSection: {
@@ -412,28 +462,37 @@ function App() {
                     <span className="material-symbols-outlined">terminal</span>
                     {locale.profileSection.coreCompetencies}
                   </h3>
-                  <div className="skill-list">
-                    {locale.skills.map((skill) => (
-                      <div className="skill" key={skill.label}>
-                        <div className="skill-labels">
-                          <span>{skill.label}</span>
-                          <span>{skill.value}%</span>
-                        </div>
-                        <div className="skill-track">
-                          <div className="skill-bar" style={{ width: `${skill.value}%` }} />
-                        </div>
+                  <div className="competencies-container">
+                    <div className="competency-group">
+                      <h4 className="competency-level">Advanced</h4>
+                      <div className="competency-list">
+                        {locale.competencies.advanced.map((tech) => (
+                          <span key={tech} className="competency-tag">
+                            `{tech}`
+                          </span>
+                        ))}
                       </div>
-                    ))}
-                  </div>
-                </div>
-                <div className="glass panel media-panel">
-                  <img
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnGkiYmaqK5mSjOBG0qv6jXYOWi0WThbf80OhBtN9JjEaQ1wLHKRpfbarUlXjUt9RZSBhDzpAd8Q0CHzj_Mu6HYZrCmAHwhW_KyKiQ3oSqvosi6ybHgKpEU_Ewpf9cEFLR_DpK2Zom3E1c9uX6Kj7Ds3ReWB6mwrDyFMU2xWoa0gYBu88L3De7wt3XFecsJXpJNIm3P0pRknxyxgwGnZMj630mxhmjHGiBlICKFr7UIxws_RiI6x4iSU75hhh0KC3Vh9s2vwiV6gs"
-                    alt="System core"
-                  />
-                  <div className="media-caption">
-                    <span>{locale.profileSection.systemStatus}</span>
-                    <strong>{locale.profileSection.operational}</strong>
+                    </div>
+                    <div className="competency-group">
+                      <h4 className="competency-level">Intermediate</h4>
+                      <div className="competency-list">
+                        {locale.competencies.intermediate.map((tech) => (
+                          <span key={tech} className="competency-tag">
+                            `{tech}`
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                    <div className="competency-group">
+                      <h4 className="competency-level">Basic</h4>
+                      <div className="competency-list">
+                        {locale.competencies.basic.map((tech) => (
+                          <span key={tech} className="competency-tag">
+                            `{tech}`
+                          </span>
+                        ))}
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -451,7 +510,15 @@ function App() {
                         <span>{item.role}</span>
                       </div>
                       <h4>{item.title}</h4>
-                      <p>{item.description}</p>
+                      {item.highlights ? (
+                        <ul className="highlights-list">
+                          {item.highlights.map((highlight, idx) => (
+                            <li key={idx}>{highlight}</li>
+                          ))}
+                        </ul>
+                      ) : (
+                          <p>{item.description}</p>
+                      )}
                     </div>
                   ))}
                 </div>
