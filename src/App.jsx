@@ -79,14 +79,13 @@ const content = {
     ],
     profileSection: {
       title: 'PROFESSIONAL EXPERIENCE',
-      description: 'Full Stack Developer with expertise in modern web technologies and scalable architectures.',
+      description: 'Full Stack Developer focused on transforming business requirements into scalable digital products. Experienced in designing and developing end-to-end solutions using React, NestJS, SQL databases, and modern cloud-based architectures.',
       coreCompetencies: 'CORE COMPETENCIES',
       executionHistory: 'PROFESSIONAL HISTORY',
     },
     competencies: {
       advanced: ['JavaScript', 'React.js', 'Node.js', 'Express', 'Sequelize.js', 'PostgreSQL', 'Tailwind CSS', 'Git'],
       intermediate: ['NestJS', 'Angular', 'Vite', 'SQL Server', 'MySQL', 'TypeORM', 'MongoDB / Mongoose', 'Redux.js', 'CSS3 / HTML5'],
-      basic: ['RxJS', 'NgRx', 'Next.js', 'Three.js / React-Three-Fiber'],
     },
     timeline: [
       {
@@ -94,12 +93,13 @@ const content = {
         role: 'Full-Stack Developer',
         title: 'Levva IA Software (Freelance)',
         description:
-          'Desarrollo de un proyecto SaaS desde cero (greenfield), definiendo la arquitectura del sistema y bases técnicas enfocadas en escalabilidad, seguridad y flujos orientados a agentes de IA. Diseño e implementación de modelos de datos relacionales con MySQL y Sequelize. Creación de funcionalidades completas utilizando NestJS, React, Vite y Tailwind (sistemas de reportes, notificaciones y servicios de correo). Implementación de mecanismos de seguridad como RBAC, MFA y encriptación.',
+          'Built a greenfield SaaS platform from scratch, defining the system architecture and technical foundations focused on scalability, security, and AI-agent-driven workflows. Designed and implemented relational data models using MySQL and Sequelize. Developed end-to-end features with NestJS, React, Vite, and Tailwind, including reporting systems, notifications, and email services. Implemented security mechanisms such as RBAC, MFA, and data encryption.',
+
         highlights: [
-          'Desarrollo de un proyecto SaaS desde cero (greenfield), definiendo la arquitectura del sistema y bases técnicas enfocadas en escalabilidad, seguridad y flujos orientados a agentes de IA.',
-          'Diseño e implementación de modelos de datos relacionales con MySQL y Sequelize.',
-          'Creación de funcionalidades completas utilizando NestJS, React, Vite y Tailwind (sistemas de reportes, notificaciones y servicios de correo).',
-          'Implementación de mecanismos de seguridad como RBAC (control de acceso basado en roles), MFA y encriptación de datos en tránsito y en reposo.',
+          'Built a greenfield SaaS platform from scratch, defining the architecture and technical foundations focused on scalability, security, and AI-agent-driven workflows.',
+          'Designed and implemented relational data models using MySQL and Sequelize.',
+          'Developed complete features using NestJS, React, Vite, and Tailwind, including reporting systems, notifications, and email services.',
+          'Implemented security mechanisms such as RBAC (Role-Based Access Control), MFA, and encryption for data both in transit and at rest.',
         ],
       },
       {
@@ -107,12 +107,13 @@ const content = {
         role: 'Full-Stack Developer Jr',
         title: 'Justo Pago',
         description:
-          'Desarrollo de nuevas funcionalidades y optimización de consultas en la base de datos para asegurar sincronización en tiempo real con SQL Server y TypeORM. Implementación de una función de chat interactivo integrando React, Tailwind, NestJS y MongoDB. Diseño de sistemas de notificaciones automatizadas por WhatsApp y email bajo una arquitectura guiada por eventos (pub/sub). Creación y actualización de interfaces de usuario dinámicas empleando Next.js, React y NestJS.',
+          'Developed new platform features and optimized database queries to ensure real-time synchronization using SQL Server and TypeORM. Implemented an interactive chat feature integrating React, Tailwind, NestJS, and MongoDB. Designed automated WhatsApp and email notification systems based on an event-driven (pub/sub) architecture. Created and maintained dynamic user interfaces using Next.js, React, and NestJS.',
+
         highlights: [
-          'Desarrollo de nuevas funcionalidades y optimización de consultas en la base de datos para asegurar sincronización en tiempo real con SQL Server y TypeORM.',
-          'Implementación de una función de chat interactivo integrando React, Tailwind, NestJS y MongoDB.',
-          'Diseño de sistemas de notificaciones automatizadas por WhatsApp y email bajo una arquitectura guiada por eventos (pub/sub).',
-          'Creación y actualización de interfaces de usuario dinámicas empleando Next.js, React y NestJS.',
+          'Developed new features and optimized database queries to ensure real-time synchronization using SQL Server and TypeORM.',
+          'Implemented an interactive chat feature integrating React, Tailwind, NestJS, and MongoDB.',
+          'Designed automated WhatsApp and email notification systems using an event-driven (pub/sub) architecture.',
+          'Created and maintained dynamic user interfaces with Next.js, React, and NestJS.',
         ],
       },
       {
@@ -120,11 +121,12 @@ const content = {
         role: 'Full-Stack Developer',
         title: 'Xirectds',
         description:
-          'Contribución desde cero en la creación del Producto Mínimo Viable (MVP) para la plataforma web de gestión de prospectos Soxial Leads. Desarrollo y maquetación de la interfaz de usuario utilizando Next.js, React y NestJS. Modificaciones a nivel de base de datos e interacciones mediante TypeORM y SQL Server.',
+          'Contributed from the ground up to the development of the Minimum Viable Product (MVP) for the Soxial Leads prospect management platform. Built and implemented the user interface using Next.js, React, and NestJS. Performed database modifications and interactions through TypeORM and SQL Server.',
+
         highlights: [
-          'Contribución desde cero en la creación del Producto Mínimo Viable (MVP) para la plataforma web de gestión de prospectos Soxial Leads.',
-          'Desarrollo y maquetación de la interfaz de usuario utilizando Next.js, React y NestJS.',
-          'Modificaciones a nivel de base de datos e interacciones mediante TypeORM y SQL Server.',
+          'Contributed from scratch to the development of the MVP for the Soxial Leads prospect management platform.',
+          'Developed and implemented the user interface using Next.js, React, and NestJS.',
+          'Worked on database modifications and integrations using TypeORM and SQL Server.',
         ],
       },
       {
@@ -132,11 +134,12 @@ const content = {
         role: 'Full-Stack Developer Jr',
         title: 'Kargoru',
         description:
-          'Desarrollo de la interfaz de usuario y vistas web con alta interactividad utilizando Angular, RxJS y NgRx. Integración y automatización de notificaciones por correo y WhatsApp conectando lógicas en NestJS y Mongoose. Integración de plataformas, APIs y pasarelas externas, incluyendo WordPress y pasarelas de carga.',
+          'Developed highly interactive web interfaces and views using Angular, RxJS, and NgRx. Integrated and automated email and WhatsApp notifications through NestJS and Mongoose-based services. Connected external platforms, APIs, and third-party services, including WordPress and logistics gateways.',
+
         highlights: [
-          'Desarrollo de la interfaz de usuario y vistas web con alta interactividad utilizando Angular, RxJS y NgRx.',
-          'Integración y automatización de notificaciones por correo y WhatsApp conectando lógicas en NestJS y Mongoose.',
-          'Integración de plataformas, APIs y pasarelas externas, incluyendo WordPress y pasarelas de carga (sucarga.com).',
+          'Developed highly interactive web interfaces using Angular, RxJS, and NgRx.',
+          'Integrated and automated email and WhatsApp notifications through NestJS and Mongoose services.',
+          'Integrated external platforms, APIs, and third-party services, including WordPress and logistics gateways (sucarga.com).',
         ],
       },
     ],
@@ -241,14 +244,13 @@ const content = {
     ],
     profileSection: {
       title: 'EXPERIENCIA PROFESIONAL',
-      description: 'Desarrollador Full Stack con experiencia en tecnologías web modernas y arquitecturas escalables.',
+      description: 'Desarrollador Full Stack enfocado en convertir necesidades de negocio en productos digitales escalables. Experiencia en el diseño y desarrollo de soluciones de extremo a extremo utilizando React, NestJS, bases de datos SQL y arquitecturas modernas en la nube.',
       coreCompetencies: 'COMPETENCIAS CLAVE',
       executionHistory: 'HISTORIAL PROFESIONAL',
     },
     competencies: {
       advanced: ['JavaScript', 'React.js', 'Node.js', 'Express', 'Sequelize.js', 'PostgreSQL', 'Tailwind CSS', 'Git'],
       intermediate: ['NestJS', 'Angular', 'Vite', 'SQL Server', 'MySQL', 'TypeORM', 'MongoDB / Mongoose', 'Redux.js', 'CSS3 / HTML5'],
-      basic: ['RxJS', 'NgRx', 'Next.js', 'Three.js / React-Three-Fiber'],
     },
     timeline: [
       {
@@ -483,16 +485,7 @@ function App() {
                         ))}
                       </div>
                     </div>
-                    <div className="competency-group">
-                      <h4 className="competency-level">Basic</h4>
-                      <div className="competency-list">
-                        {locale.competencies.basic.map((tech) => (
-                          <span key={tech} className="competency-tag">
-                            `{tech}`
-                          </span>
-                        ))}
-                      </div>
-                    </div>
+
                   </div>
                 </div>
               </div>
