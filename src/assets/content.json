@@ -182,6 +182,41 @@
                     "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-1-snl_translator.png"
                   },
                   {
+                "code": "0x12 // AI_algorithms",
+                "title": "Smart Warrior",
+                "description": "Artificial Intelligence project from Universidad del Valle. A warrior NPC must find the shortest path. It implements 5 search algorithms (Breadth-First, Uniform Cost, Depth-First, Greedy, and A*) to solve a problem.",
+                "tags": [
+                    "Python",
+                    "Pygame",
+                    "Tkinter"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://github.com/danielcaicedo98/ProyectoIA/assets/61769073/6ebb662e-1541-4fac-afe2-9009ed8d5e63"
+            },
+            {
+                "code": "0x13 // Chess_game",
+                "title": "Yoshi's Battle",
+                "description": "Artificial Intelligence project from Universidad del Valle. It implements the Minimax algorithm with pruning for an adversarial game between two Yoshis that move like chess knights on a board. They must collect regular coins (1 pt) and special coins (3 pts). It features 3 difficulty levels (beginner depth 2, intermediate depth 4, expert depth 6).",
+                "tags": [
+                    "Python",
+                    "Pygame"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://github.com/user-attachments/assets/acd1c35c-c70f-4bfe-9129-32f53390dadc"
+            },
+            {
                 "code": "0x02 // Smart_App",
                 "title": "Weather Assistant",
                 "description": "Intelligent weather assistant for Cali, Colombia with voice recognition, 7-day history, weather-based suggestions, and automatic notifications.",
@@ -385,41 +420,6 @@
                     }
                 ],
                 "image": "https://user-images.githubusercontent.com/63685121/103682243-9aedf580-4f56-11eb-895a-2b249a7416bb.png"
-            },
-            {
-                "code": "0x12 // AI_algorithms",
-                "title": "Smart Warrior",
-                "description": "Artificial Intelligence project from Universidad del Valle. A warrior NPC must find the shortest path. It implements 5 search algorithms (Breadth-First, Uniform Cost, Depth-First, Greedy, and A*) to solve a problem.",
-                "tags": [
-                    "Python",
-                    "Pygame",
-                    "Tkinter"
-                ],
-                "actions": [
-                    {
-                        "label": "SOURCE_CODE",
-                        "icon": "code",
-                        "variant": "ghost"
-                    }
-                ],
-                "image": "https://github.com/danielcaicedo98/ProyectoIA/assets/61769073/6ebb662e-1541-4fac-afe2-9009ed8d5e63"
-            },
-            {
-                "code": "0x13 // Chess_game",
-                "title": "Yoshi's Battle",
-                "description": "Artificial Intelligence project from Universidad del Valle. It implements the Minimax algorithm with pruning for an adversarial game between two Yoshis that move like chess knights on a board. They must collect regular coins (1 pt) and special coins (3 pts). It features 3 difficulty levels (beginner depth 2, intermediate depth 4, expert depth 6).",
-                "tags": [
-                    "Python",
-                    "Pygame"
-                ],
-                "actions": [
-                    {
-                        "label": "SOURCE_CODE",
-                        "icon": "code",
-                        "variant": "ghost"
-                    }
-                ],
-                "image": "https://github.com/user-attachments/assets/acd1c35c-c70f-4bfe-9129-32f53390dadc"
             }
         ],
         "profileSection": {
@@ -716,6 +716,41 @@
                     "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-1-snl_translator.png"
                   },
                   {
+                "code": "0x12 // AI_algorithms",
+                "title": "El guerrero Inteligente",
+                "description": "Proyecto de Inteligencia Artificial. Un Guerrero NPC debe encontrar el camino más corto. Implementa 5 algoritmos de búsqueda (Amplitud, Costo Uniforme, Profundidad, Ávara y A*) para resolver el problema un problema.",
+                "tags": [
+                    "Python",
+                    "Pygame",
+                    "Tkinter"
+                ],
+                "actions": [
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://github.com/danielcaicedo98/ProyectoIA/assets/61769073/6ebb662e-1541-4fac-afe2-9009ed8d5e63"
+            },
+            {
+                "code": "0x13 // Chess_game",
+                "title": "Yoshi's Battle",
+                "description": "Proyecto de Inteligencia Artificial de la Universidad del Valle. Implementa el algoritmo Minimax con poda para un juego adversarial entre dos Yoshis que se mueven como caballos de ajedrez en un tablero. Deben recolectar monedas normales (1 pt) y especiales (3 pts). Tiene 3 niveles de dificultad (principiante prof. 2, intermedio prof. 4, experto prof. 6). ",
+                "tags": [
+                    "Python",
+                    "Pygame"
+                ],
+                "actions": [
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://github.com/user-attachments/assets/acd1c35c-c70f-4bfe-9129-32f53390dadc"
+            },
+            {
                 "code": "0x02 // Smart_APP",
                 "title": "Asistente del clima",
                 "description": "Asistente meteorológico inteligente para Cali, Colombia con reconocimiento de voz, historial de 7 días, sugerencias basadas en clima y notificaciones automáticas.",
@@ -919,41 +954,6 @@
                     }
                 ],
                 "image": "https://user-images.githubusercontent.com/63685121/103682243-9aedf580-4f56-11eb-895a-2b249a7416bb.png"
-            },
-            {
-                "code": "0x12 // AI_algorithms",
-                "title": "El guerrero Inteligente",
-                "description": "Proyecto de Inteligencia Artificial. Un Guerrero NPC debe encontrar el camino más corto. Implementa 5 algoritmos de búsqueda (Amplitud, Costo Uniforme, Profundidad, Ávara y A*) para resolver el problema un problema.",
-                "tags": [
-                    "Python",
-                    "Pygame",
-                    "Tkinter"
-                ],
-                "actions": [
-                    {
-                        "label": "CODIGO_FUENTE",
-                        "icon": "code",
-                        "variant": "ghost"
-                    }
-                ],
-                "image": "https://github.com/danielcaicedo98/ProyectoIA/assets/61769073/6ebb662e-1541-4fac-afe2-9009ed8d5e63"
-            },
-            {
-                "code": "0x13 // Chess_game",
-                "title": "Yoshi's Battle",
-                "description": "Proyecto de Inteligencia Artificial de la Universidad del Valle. Implementa el algoritmo Minimax con poda para un juego adversarial entre dos Yoshis que se mueven como caballos de ajedrez en un tablero. Deben recolectar monedas normales (1 pt) y especiales (3 pts). Tiene 3 niveles de dificultad (principiante prof. 2, intermedio prof. 4, experto prof. 6). ",
-                "tags": [
-                    "Python",
-                    "Pygame"
-                ],
-                "actions": [
-                    {
-                        "label": "CODIGO_FUENTE",
-                        "icon": "code",
-                        "variant": "ghost"
-                    }
-                ],
-                "image": "https://github.com/user-attachments/assets/acd1c35c-c70f-4bfe-9129-32f53390dadc"
             }
         ],
         "profileSection": {
