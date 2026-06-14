@@ -1,0 +1,1069 @@
+{
+    "en": {
+        "nav": {
+            "hero": "Hero",
+            "projects": "Projects",
+            "profile": "Profile",
+            "contact": "Contact",
+            "downloadCv": "DOWNLOAD_CV",
+            "language": "ES"
+        },
+        "hero": {
+            "title": "<JUAN DAVID TOVAR/>",
+            "subtitle": "Full Stack Developer focused on creating scalable digital products. Experienced in React, Node.js, NestJS, and database design, transforming complex business requirements into reliable software solutions.",
+            "actions": {
+                "projects": "Projects",
+                "profile": "Profile",
+                "contact": "Contact"
+            }
+        },
+        "projectsSection": {
+            "kicker": "DEPLOYMENT_HISTORY",
+            "title": "SELECTED_PROJECTS",
+            "description": ""
+        },
+        "projects": [
+            {
+                "code": "0x01 // LSC_TRANSLATOR",
+                "title": " Sign Language translator",
+                "description": "Colombian Sign Language (LSC) translator that uses computer vision and deep learning (LSTM models) to translate vowels, numbers, and gestures in real time through the webcam.",
+                "tags": [
+                    "React",
+                    "MUI",
+                    "Flask",
+                    "TensorFlow",
+                    "MediaPipe",
+                    "OpenCV",
+                    "Python"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-1-snl_translator.png"
+            },
+            {
+                "code": "0x02 // Smart_App",
+                "title": "Weather Assistant",
+                "description": "Intelligent weather assistant for Cali, Colombia with voice recognition, 7-day history, weather-based suggestions, and automatic notifications.",
+                "tags": [
+                    "React",
+                    "Vite",
+                    "Material Tailwind",
+                    "FastAPI",
+                    "Whisper (STT)",
+                    "WeatherAPI"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-2-weather.jpeg"
+            },
+            {
+                "code": "0x03 // WHATSAPP_web",
+                "title": "WhatsApp web by API",
+                "description": "REST API to send WhatsApp messages using a queuing system with Redis, avoiding blocks due to mass sending. Includes QR authentication, reports, and automatic processing.",
+                "tags": [
+                    "Node.js",
+                    "Express",
+                    "Redis",
+                    "Puppeteer"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/whatsapp-web-api/refs/heads/main/src/whatsapp-api-server.png"
+            },
+            {
+                "code": "0x04 // FINANCIAL_APP",
+                "title": "APP for construction budget management",
+                "description": "Mobile app for construction project management. It allows creating projects, recording income/expenses, viewing pie charts, and managing budgets with local persistence and Firebase.",
+                "tags": [
+                    "React Native",
+                    "Expo",
+                    "Firebase",
+                    "SQLite",
+                    "AsyncStorage",
+                    "react-native-chart-kit"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/jenestiven/app-gestion-de-obra/refs/heads/final_details/assets/preview.png"
+            },
+            {
+                "code": "0x05 // MANUAL_APP",
+                "title": "Duolingo Manual",
+                "description": "Duolingo user manual in Spanish. It contains detailed tutorials about introduction, getting started guide, interface, lessons, leagues, streaks, shop, challenges, and more.",
+                "tags": [
+                    "React",
+                    "Vite",
+                    "Tailwind CSS",
+                    "React Router"
+                ],
+                "actions": [
+                    {
+                        "label": "LIVE_DEMO",
+                        "icon": "terminal",
+                        "variant": "primary"
+                    },
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/manual-duolingo/refs/heads/main/manual-web/src/assets/preview.png"
+            },
+            {
+                "code": "0x06 // Appointment_system",
+                "title": "WufWuf",
+                "description": "Appointment system for animal adoption with microservices. It manages appointments, catalogs animals with photos, and ensures secure authentication. It uses an API Gateway with a reverse proxy.",
+                "tags": [
+                    "Node.js",
+                    "Express",
+                    "Docker",
+                    "http-proxy-middleware"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/wufwuf.png"
+            },
+            {
+                "code": "0x07 // MEDICAL_IMG",
+                "title": "Medical Image Processor",
+                "description": "Medical image processor (NIfTI format). Tools: segmentation (region growing), k-means, thresholding, histogram equalization, z-score transformation, edge detection, and image registration.",
+                "tags": [
+                    "React",
+                    "Vite",
+                    "Tailwind",
+                    "Flask",
+                    "NiBabel",
+                    "SimpleITK",
+                    "SciPy",
+                    "Matplotlib"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/M-image-processor/refs/heads/main/preview.png"
+            },
+            {
+                "code": "0x08 // CHATBOT",
+                "title": "Colombian conflict Chatbot",
+                "description": "RAG chatbot about the Colombian armed conflict using JEP reports. Fine-tuned models (Llama-3.2, Mistral) published on HuggingFace. Custom dataset on HuggingFace.",
+                "tags": [
+                    "Python",
+                    "Jupyter",
+                    "Llama",
+                    "Mistral",
+                    "LangChain",
+                    "FAISS",
+                    "Gradio",
+                    "HuggingFace"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/colombian-conflict-chatbot/refs/heads/main/docs/schema.png"
+            },
+            {
+                "code": "0x09 // VISUAL_NOVEL",
+                "title": "Virtual Odyssey",
+                "description": "3D visual novel \"Virtual Odyssey\". In the year 2055, Xander must save his grandmother by entering the world of hacking and the Virtual World. Includes 3D characters, interactive scenarios, and a dialogue system.",
+                "tags": [
+                    "React",
+                    "Three.js",
+                    "React Three Fiber",
+                    "@react-three/rapier",
+                    "Tailwind CSS"
+                ],
+                "actions": [
+                    {
+                        "label": "LIVE_DEMO",
+                        "icon": "terminal",
+                        "variant": "primary"
+                    },
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://proyecto-integrador-liard.vercel.app/images/gameplay1.png"
+            },
+            {
+                "code": "0x0A // TRAVELING",
+                "title": "Five to Fly",
+                "description": "Travel recommendation app. Users answer a questionnaire and the system calculates weights to recommend personalized tourist destinations. Includes registration, login, and result rating.",
+                "tags": [
+                    "React",
+                    "Vite",
+                    "Tailwind",
+                    "Django REST",
+                    "PostgreSQL",
+                    "Docker"
+                ],
+                "actions": [
+                    {
+                        "label": "LIVE_DEMO",
+                        "icon": "terminal",
+                        "variant": "primary"
+                    },
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/five-to-fly/refs/heads/main/five-to-fly.png"
+            },
+            {
+                "code": "0x0B // PORTFOLIO_3D",
+                "title": "Personal Web 3D",
+                "description": "Personal 3D portfolio of Juan David Tovar (Iron-mind), deployed on Vercel. Displays projects and skills with 3D visual effects.",
+                "tags": [
+                    "React",
+                    "JavaScript",
+                    "CSS",
+                    "React Three Fiber",
+                    "Three.js"
+                ],
+                "actions": [
+                    {
+                        "label": "LIVE_DEMO",
+                        "icon": "terminal",
+                        "variant": "primary"
+                    },
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/juanda-portfolio-3d/refs/heads/main/preview.png"
+            },
+            {
+                "code": "0x0C // car_dealership",
+                "title": "Car Dealership Management",
+                "description": "Application to manage a car dealership. It allows managing vehicles, quotes, and customers. 4 contributors.",
+                "tags": [
+                    "React",
+                    "Next.js",
+                    "Django",
+                    "Python",
+                    "JavaScript"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/renault_app/refs/heads/main/readme_imgs/allcars.png"
+            },
+            {
+                "code": "0x0D // VIDEOGAMES",
+                "title": "Videogames page",
+                "description": "Individual project: video game website with search, filtering by genre/rating, game creation, and details. Consumes the RAWG API. Deployed on GitHub Pages and Heroku.",
+                "tags": [
+                    "React",
+                    "Redux",
+                    "Express",
+                    "Sequelize",
+                    "PostgreSQL"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/PI-videogames/refs/heads/main/home.png"
+            },
+            {
+                "code": "0x0E // Mobile_Content",
+                "title": "MarvelApp",
+                "description": "Mobile app to search for Marvel characters and explore their comics. Includes infinite scroll, search, and character details. Downloadable as APK.",
+                "tags": [
+                    "React Native",
+                    "Expo",
+                    "JavaScript",
+                    "Marvel API"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/MarvelApp/refs/heads/main/imgs/abomb.png"
+            },
+            {
+                "code": "0x0F // E-COMMERCE",
+                "title": "E-commerce Quick-E-Mart",
+                "description": "E-commerce frontend with 6 contributors. Modern interface for an online store with reusable components and styles using SCSS.",
+                "tags": [
+                    "React",
+                    "SCSS",
+                    "JavaScript",
+                    "Express",
+                    "PostgreSQL"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/NicoRob92/FrontEcommerce/refs/heads/dev/imgs/home.jpeg"
+            },
+            {
+                "code": "0x10 // PACMAN",
+                "title": "Pacman Juego Homenaje",
+                "description": "Improved version of the classic Pac-Man developed in pure JavaScript with the Processing library. Playable from Replit.",
+                "tags": [
+                    "JavaScript",
+                    "Processing (p5.js)",
+                    "HTML",
+                    "CSS"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/Pacman_Juego-2.0/refs/heads/master/pacman-preview.png"
+            },
+            {
+                "code": "0x11 // command_line_game",
+                "title": "Fox-Rabbit-Lettuce game",
+                "description": "Classic brain game of crossing a fox, a rabbit, and a lettuce to the other side of the river using a boat. It runs via console using OOP in pure C++.",
+                "tags": [
+                    "C++",
+                    "OOP"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://user-images.githubusercontent.com/63685121/103682243-9aedf580-4f56-11eb-895a-2b249a7416bb.png"
+            },
+            {
+                "code": "0x12 // AI_algorithms",
+                "title": "Smart Warrior",
+                "description": "Artificial Intelligence project from Universidad del Valle. A warrior NPC must find the shortest path. It implements 5 search algorithms (Breadth-First, Uniform Cost, Depth-First, Greedy, and A*) to solve a problem.",
+                "tags": [
+                    "Python",
+                    "Pygame",
+                    "Tkinter"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://github.com/danielcaicedo98/ProyectoIA/assets/61769073/6ebb662e-1541-4fac-afe2-9009ed8d5e63"
+            },
+            {
+                "code": "0x13 // Chess_game",
+                "title": "Yoshi's Battle",
+                "description": "Artificial Intelligence project from Universidad del Valle. It implements the Minimax algorithm with pruning for an adversarial game between two Yoshis that move like chess knights on a board. They must collect regular coins (1 pt) and special coins (3 pts). It features 3 difficulty levels (beginner depth 2, intermediate depth 4, expert depth 6).",
+                "tags": [
+                    "Python",
+                    "Pygame"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://github.com/user-attachments/assets/acd1c35c-c70f-4bfe-9129-32f53390dadc"
+            }
+        ],
+        "profileSection": {
+            "title": "PROFESSIONAL EXPERIENCE",
+            "description": "Full Stack Developer focused on transforming business requirements into scalable digital products. Experienced in designing and developing end-to-end solutions using React, NestJS, SQL databases, and modern cloud-based architectures.",
+            "coreCompetencies": "CORE COMPETENCIES",
+            "executionHistory": "PROFESSIONAL HISTORY"
+        },
+        "competencies": {
+            "advanced": [
+                "JavaScript",
+                "React.js",
+                "Node.js",
+                "Express",
+                "Sequelize.js",
+                "PostgreSQL",
+                "Tailwind CSS",
+                "Git"
+            ],
+            "intermediate": [
+                "NestJS",
+                "Angular",
+                "Vite",
+                "SQL Server",
+                "MySQL",
+                "TypeORM",
+                "MongoDB / Mongoose",
+                "Redux.js",
+                "CSS3 / HTML5"
+            ]
+        },
+        "timeline": [
+            {
+                "period": "Dec 2025 - Mar 2026",
+                "role": "Full-Stack Developer",
+                "title": "Levva IA Software (Freelance)",
+                "description": "Built a greenfield SaaS platform from scratch, defining the system architecture and technical foundations focused on scalability, security, and AI-agent-driven workflows. Designed and implemented relational data models using MySQL and Sequelize. Developed end-to-end features with NestJS, React, Vite, and Tailwind, including reporting systems, notifications, and email services. Implemented security mechanisms such as RBAC, MFA, and data encryption.",
+                "highlights": [
+                    "Built a greenfield SaaS platform from scratch, defining the architecture and technical foundations focused on scalability, security, and AI-agent-driven workflows.",
+                    "Designed and implemented relational data models using MySQL and Sequelize.",
+                    "Developed complete features using NestJS, React, Vite, and Tailwind, including reporting systems, notifications, and email services.",
+                    "Implemented security mechanisms such as RBAC (Role-Based Access Control), MFA, and encryption for data both in transit and at rest."
+                ]
+            },
+            {
+                "period": "Apr 2024 - Dec 2025",
+                "role": "Full-Stack Developer Jr",
+                "title": "Justo Pago",
+                "description": "Developed new platform features and optimized database queries to ensure real-time synchronization using SQL Server and TypeORM. Implemented an interactive chat feature integrating React, Tailwind, NestJS, and MongoDB. Designed automated WhatsApp and email notification systems based on an event-driven (pub/sub) architecture. Created and maintained dynamic user interfaces using Next.js, React, and NestJS.",
+                "highlights": [
+                    "Developed new features and optimized database queries to ensure real-time synchronization using SQL Server and TypeORM.",
+                    "Implemented an interactive chat feature integrating React, Tailwind, NestJS, and MongoDB.",
+                    "Designed automated WhatsApp and email notification systems using an event-driven (pub/sub) architecture.",
+                    "Created and maintained dynamic user interfaces with Next.js, React, and NestJS."
+                ]
+            },
+            {
+                "period": "Aug 2023 - Nov 2023",
+                "role": "Full-Stack Developer",
+                "title": "Xirectds",
+                "description": "Contributed from the ground up to the development of the Minimum Viable Product (MVP) for the Soxial Leads prospect management platform. Built and implemented the user interface using Next.js, React, and NestJS. Performed database modifications and interactions through TypeORM and SQL Server.",
+                "highlights": [
+                    "Contributed from scratch to the development of the MVP for the Soxial Leads prospect management platform.",
+                    "Developed and implemented the user interface using Next.js, React, and NestJS.",
+                    "Worked on database modifications and integrations using TypeORM and SQL Server."
+                ]
+            },
+            {
+                "period": "Aug 2022 - Feb 2023",
+                "role": "Full-Stack Developer Jr",
+                "title": "Kargoru",
+                "description": "Developed highly interactive web interfaces and views using Angular, RxJS, and NgRx. Integrated and automated email and WhatsApp notifications through NestJS and Mongoose-based services. Connected external platforms, APIs, and third-party services, including WordPress and logistics gateways.",
+                "highlights": [
+                    "Developed highly interactive web interfaces using Angular, RxJS, and NgRx.",
+                    "Integrated and automated email and WhatsApp notifications through NestJS and Mongoose services.",
+                    "Integrated external platforms, APIs, and third-party services, including WordPress and logistics gateways (sucarga.com)."
+                ]
+            }
+        ],
+        "contactSection": {
+            "aboutTitle": "ABOUT_ME",
+            "aboutP1": "I am a Full Stack Developer with 3 years of experience, specialized in building and optimizing web applications using technologies such as React, Node.js, Express, Sequelize, PostgreSQL, and Git. I have experience applying agile methodologies like SCRUM to deliver efficient and high-quality solutions.",
+            "aboutP2": "I am a Systems Engineer with a strong focus on web development, a path I chose from my academic background. Throughout this trajectory, I have worked on diverse projects that have strengthened my technical profile and provided me with practical experience with modern technologies such as Vite, Redis, and React.",
+            "github": "GITHUB",
+            "linkedin": "LINKEDIN",
+            "cv": "CV_ARCHIVE",
+            "techStack": "TECH_STACK",
+            "experience": "EXPERIENCE",
+            "role": "FULL_STACK",
+            "years": "12_YEARS",
+            "contactTitle": "CONTACT",
+            "userId": "USER_ID",
+            "namePlaceholder": "Enter your name...",
+            "accessPoint": "ACCESS_POINT",
+            "emailPlaceholder": "your@email.com",
+            "dataPayload": "DATA_PAYLOAD",
+            "messagePlaceholder": "Write your message here...",
+            "send": "EXECUTE_TRANSMISSION"
+        },
+        "heroTicker": [
+            "REACT.JS",
+            "NODE.JS",
+            "TYPESCRIPT",
+            "NEST.JS",
+            "VITE"
+        ],
+        "footerLeft": "© 2024 SYSTEM_ARCHITECT. EXECUTE_SUCCESS.",
+        "footerLinks": [
+            "GITHUB",
+            "LINKEDIN",
+            "TERMINAL"
+        ]
+    },
+    "es": {
+        "nav": {
+            "hero": "Inicio",
+            "projects": "Proyectos",
+            "profile": "Perfil",
+            "contact": "Contacto",
+            "downloadCv": "DESCARGAR_CV",
+            "language": "EN"
+        },
+        "hero": {
+            "title": "<JUAN DAVID TOVAR/>",
+            "subtitle": "Desarrollador Full Stack enfocado en la creación de productos escalables. Con experiencia en React, Node.js, NestJS y diseño de bases de datos, transformando requerimientos de negocio complejos en soluciones de software confiables.",
+            "actions": {
+                "projects": "Proyectos",
+                "profile": "Perfil",
+                "contact": "Contacto"
+            }
+        },
+        "projectsSection": {
+            "kicker": "Historial",
+            "title": "PROYECTOS",
+            "description": ""
+        },
+        "projects": [
+            {
+                "code": "0x01 // LSC_TRANSLATOR",
+                "title": "Traductor de Lengua de Señas Colombiana",
+                "description": "Traductor de Lengua de Señas Colombiana (LSC) que utiliza visión por computadora y deep learning (modelos LSTM) para traducir vocales, números y gestos en tiempo real a través de la cámara web.",
+                "tags": [
+                    "React",
+                    "MUI",
+                    "Flask",
+                    "TensorFlow",
+                    "MediaPipe",
+                    "OpenCV",
+                    "Python"
+                ],
+                "actions": [
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-1-snl_translator.png"
+            },
+            {
+                "code": "0x02 // Smart_APP",
+                "title": "Asistente del clima",
+                "description": "Asistente meteorológico inteligente para Cali, Colombia con reconocimiento de voz, historial de 7 días, sugerencias basadas en clima y notificaciones automáticas.",
+                "tags": [
+                    "React",
+                    "Vite",
+                    "Material Tailwind",
+                    "FastAPI",
+                    "Whisper (STT)",
+                    "WeatherAPI"
+                ],
+                "actions": [
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-2-weather.jpeg"
+            },
+            {
+                "code": "0x03 // WHATSAPP_WEB",
+                "title": "WhatsApp web API",
+                "description": "API REST para enviar mensajes de WhatsApp mediante un sistema de colas con Redis, evitando bloqueos por envío masivo. Incluye autenticación QR, reportes y procesamiento automático.",
+                "tags": [
+                    "Node.js",
+                    "Express",
+                    "Redis",
+                    "Puppeteer"
+                ],
+                "actions": [
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/whatsapp-web-api/refs/heads/main/src/whatsapp-api-server.png"
+            },
+            {
+                "code": "0x04 // FINANCIAL_APP",
+                "title": "Gestión de Obra",
+                "description": "App móvil para gestión de obras de construcción. Permite crear proyectos, registrar ingresos/gastos, visualizar gráficos circulares y gestionar presupuestos con persistencia local y Firebase.",
+                "tags": [
+                    "React Native",
+                    "Expo",
+                    "Firebase",
+                    "SQLite",
+                    "AsyncStorage",
+                    "react-native-chart-kit"
+                ],
+                "actions": [
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/jenestiven/app-gestion-de-obra/refs/heads/final_details/assets/preview.png"
+            },
+            {
+                "code": "0x05 // MANUAL_APP",
+                "title": "Manual de Duolingo",
+                "description": "Manual de usuario en español de Duolingo. Contiene tutoriales detallados sobre introducción, guía de inicio, interfaz, lecciones, ligas, rachas, tienda, desafíos y más.",
+                "tags": [
+                    "React",
+                    "Vite",
+                    "Tailwind CSS",
+                    "React Router"
+                ],
+                "actions": [
+                    {
+                        "label": "DEMO",
+                        "icon": "terminal",
+                        "variant": "primary"
+                    },
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/manual-duolingo/refs/heads/main/manual-web/src/assets/preview.png"
+            },
+            {
+                "code": "0x06 // Appointment_system",
+                "title": "WufWuf",
+                "description": "Sistema de citas para adopción de animales con microservicios. Gestiona citas, cataloga animales con fotos y garantiza autenticación segura. Utiliza un API Gateway con proxy inverso.",
+                "tags": [
+                    "Node.js",
+                    "Express",
+                    "Docker",
+                    "http-proxy-middleware"
+                ],
+                "actions": [
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/wufwuf.png"
+            },
+            {
+                "code": "0x07 // MEDICAL_IMG",
+                "title": "VISOR DE IMÁGENES MÉDICAS",
+                "description": "Procesador de imágenes médicas (formato NIfTI). Herramientas: segmentación (region growing), k-means, umbralizado, ecualización de histogramas, transformación z-score, detección de bordes y registro de imágenes.",
+                "tags": [
+                    "React",
+                    "Vite",
+                    "Tailwind",
+                    "Flask",
+                    "NiBabel",
+                    "SimpleITK",
+                    "SciPy",
+                    "Matplotlib"
+                ],
+                "actions": [
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/M-image-processor/refs/heads/main/preview.png"
+            },
+            {
+                "code": "0x08 // CHATBOT",
+                "title": "Sistema question-answering sobre conflicto armado colombiano",
+                "description": "Chatbot RAG sobre el conflicto armado colombiano usando informes de la JEP. Modelos fine-tuneados (Llama-3.2, Mistral) publicados en HuggingFace. Dataset propio en HuggingFace.",
+                "tags": [
+                    "Python",
+                    "Jupyter",
+                    "Llama",
+                    "Mistral",
+                    "LangChain",
+                    "FAISS",
+                    "Gradio",
+                    "HuggingFace"
+                ],
+                "actions": [
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/colombian-conflict-chatbot/refs/heads/main/docs/schema.png"
+            },
+            {
+                "code": "0x09 // VISUAL_NOVEL",
+                "title": "Virtual Odyssey",
+                "description": "Novela visual 3D \"Virtual Odyssey\". En el año 2055, Xander debe salvar a su abuela adentrándose en el mundo del hacking y el Mundo Virtual. Incluye personajes 3D, escenarios interactivos y sistema de diálogos.",
+                "tags": [
+                    "React",
+                    "Three.js",
+                    "React Three Fiber",
+                    "@react-three/rapier",
+                    "Tailwind CSS"
+                ],
+                "actions": [
+                    {
+                        "label": "DEMO",
+                        "icon": "terminal",
+                        "variant": "primary"
+                    },
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://proyecto-integrador-liard.vercel.app/images/gameplay1.png"
+            },
+            {
+                "code": "0x0A // Viajes",
+                "title": "Five to Fly",
+                "description": "App de recomendación de viajes. Los usuarios responden un cuestionario y el sistema calcula ponderaciones para recomendar destinos turísticos personalizados. Incluye registro, login y valoración de resultados.",
+                "tags": [
+                    "React",
+                    "Vite",
+                    "Tailwind",
+                    "Django REST",
+                    "PostgreSQL",
+                    "Docker"
+                ],
+                "actions": [
+                    {
+                        "label": "DEMO",
+                        "icon": "terminal",
+                        "variant": "primary"
+                    },
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/five-to-fly/refs/heads/main/five-to-fly.png"
+            },
+            {
+                "code": "0x0B // PORTFOLIO_3D",
+                "title": "Personal Web 3D",
+                "description": "Portafolio 3D personal de Juan David Tovar (Iron-mind), desplegado en Vercel. Muestra proyectos y habilidades con efectos visuales 3D.",
+                "tags": [
+                    "React",
+                    "JavaScript",
+                    "CSS",
+                    "React Three Fiber",
+                    "Three.js"
+                ],
+                "actions": [
+                    {
+                        "label": "DEMO",
+                        "icon": "terminal",
+                        "variant": "primary"
+                    },
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/juanda-portfolio-3d/refs/heads/main/preview.png"
+            },
+            {
+                "code": "0x0C // Concesionario_de_autos",
+                "title": "Sistema de gestión para concesionario",
+                "description": "Aplicación para administrar un concesionario de autos eléctricos de una marca. Permite gestionar vehículos, cotizaciones y clientes. 4 contribuidores.",
+                "tags": [
+                    "React",
+                    "Next.js",
+                    "Django",
+                    "Python",
+                    "JavaScript"
+                ],
+                "actions": [
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/renault_app/refs/heads/main/readme_imgs/allcars.png"
+            },
+            {
+                "code": "0x0D // VIDEOGAMES",
+                "title": "Web de videojuegos",
+                "description": "Proyecto individual: web de videojuegos con búsqueda, filtrado por género/rating, creación de juegos y detalle. Consume la API de RAWG. Desplegado en GitHub Pages y Heroku.",
+                "tags": [
+                    "React",
+                    "Redux",
+                    "Express",
+                    "Sequelize",
+                    "PostgreSQL"
+                ],
+                "actions": [
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/PI-videogames/refs/heads/main/home.png"
+            },
+            {
+                "code": "0x0E // Mobile_Content",
+                "title": "MarvelApp",
+                "description": "App móvil para buscar personajes de Marvel y explorar sus cómics. Incluye scroll infinito, búsqueda y detalle de personajes. Descargable como APK.",
+                "tags": [
+                    "React Native",
+                    "Expo",
+                    "JavaScript",
+                    "Marvel API"
+                ],
+                "actions": [
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/MarvelApp/refs/heads/main/imgs/abomb.png"
+            },
+            {
+                "code": "0x0F // E-COMMERCE",
+                "title": "E-commerce Quick-E-Mart",
+                "description": "Frontend de e-commerce con 6 contribuidores. Interfaz moderna para tienda online con componentes reutilizables y estilos con SCSS.",
+                "tags": [
+                    "React",
+                    "SCSS",
+                    "JavaScript",
+                    "Express",
+                    "PostgreSQL"
+                ],
+                "actions": [
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/NicoRob92/FrontEcommerce/refs/heads/dev/imgs/home.jpeg"
+            },
+            {
+                "code": "0x10 // PACMAN",
+                "title": "Pacman Reimaginado",
+                "description": "Versión mejorada del clásico Pac-Man desarrollado en JavaScript puro con la librería Processing. Jugable desde Replit.",
+                "tags": [
+                    "JavaScript",
+                    "Processing (p5.js)",
+                    "HTML",
+                    "CSS"
+                ],
+                "actions": [
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/Pacman_Juego-2.0/refs/heads/master/pacman-preview.png"
+            },
+            {
+                "code": "0x11 // command_line_game",
+                "title": "el juego de zorro-conejo-lechuga ",
+                "description": "Clásico juego mental de cruzar un zorro, un conejo y una lechuga al otro lado del río usando una barca. Funciona por consola con POO en C++ puro.",
+                "tags": [
+                    "C++",
+                    "POO"
+                ],
+                "actions": [
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://user-images.githubusercontent.com/63685121/103682243-9aedf580-4f56-11eb-895a-2b249a7416bb.png"
+            },
+            {
+                "code": "0x12 // AI_algorithms",
+                "title": "El guerrero Inteligente",
+                "description": "Proyecto de Inteligencia Artificial. Un Guerrero NPC debe encontrar el camino más corto. Implementa 5 algoritmos de búsqueda (Amplitud, Costo Uniforme, Profundidad, Ávara y A*) para resolver el problema un problema.",
+                "tags": [
+                    "Python",
+                    "Pygame",
+                    "Tkinter"
+                ],
+                "actions": [
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://github.com/danielcaicedo98/ProyectoIA/assets/61769073/6ebb662e-1541-4fac-afe2-9009ed8d5e63"
+            },
+            {
+                "code": "0x13 // Chess_game",
+                "title": "Yoshi's Battle",
+                "description": "Proyecto de Inteligencia Artificial de la Universidad del Valle. Implementa el algoritmo Minimax con poda para un juego adversarial entre dos Yoshis que se mueven como caballos de ajedrez en un tablero. Deben recolectar monedas normales (1 pt) y especiales (3 pts). Tiene 3 niveles de dificultad (principiante prof. 2, intermedio prof. 4, experto prof. 6). ",
+                "tags": [
+                    "Python",
+                    "Pygame"
+                ],
+                "actions": [
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://github.com/user-attachments/assets/acd1c35c-c70f-4bfe-9129-32f53390dadc"
+            }
+        ],
+        "profileSection": {
+            "title": "EXPERIENCIA PROFESIONAL",
+            "description": "Desarrollador Full Stack enfocado en convertir necesidades de negocio en productos digitales escalables. Experiencia en el diseño y desarrollo de soluciones de extremo a extremo utilizando React, NestJS, bases de datos SQL y arquitecturas modernas en la nube.",
+            "coreCompetencies": "COMPETENCIAS CLAVE",
+            "executionHistory": "HISTORIAL PROFESIONAL"
+        },
+        "competencies": {
+            "advanced": [
+                "JavaScript",
+                "React.js",
+                "Node.js",
+                "Express",
+                "Sequelize.js",
+                "PostgreSQL",
+                "Tailwind CSS",
+                "Git"
+            ],
+            "intermediate": [
+                "NestJS",
+                "Angular",
+                "Vite",
+                "SQL Server",
+                "MySQL",
+                "TypeORM",
+                "MongoDB / Mongoose",
+                "Redux.js",
+                "CSS3 / HTML5"
+            ]
+        },
+        "timeline": [
+            {
+                "period": "Dic 2025 - Mar 2026",
+                "role": "Desarrollador Full-Stack",
+                "title": "Levva IA Software (Freelance)",
+                "description": "Desarrollo de un proyecto SaaS desde cero (greenfield), definiendo la arquitectura del sistema y bases técnicas enfocadas en escalabilidad, seguridad y flujos orientados a agentes de IA. Diseño e implementación de modelos de datos relacionales con MySQL y Sequelize. Creación de funcionalidades completas utilizando NestJS, React, Vite y Tailwind (sistemas de reportes, notificaciones y servicios de correo). Implementación de mecanismos de seguridad como RBAC, MFA y encriptación.",
+                "highlights": [
+                    "Desarrollo de un proyecto SaaS desde cero (greenfield), definiendo la arquitectura del sistema y bases técnicas enfocadas en escalabilidad, seguridad y flujos orientados a agentes de IA.",
+                    "Diseño e implementación de modelos de datos relacionales con MySQL y Sequelize.",
+                    "Creación de funcionalidades completas utilizando NestJS, React, Vite y Tailwind (sistemas de reportes, notificaciones y servicios de correo).",
+                    "Implementación de mecanismos de seguridad como RBAC (control de acceso basado en roles), MFA y encriptación de datos en tránsito y en reposo."
+                ]
+            },
+            {
+                "period": "Abr 2024 - Dic 2025",
+                "role": "Desarrollador Full-Stack Jr",
+                "title": "Justo Pago",
+                "description": "Desarrollo de nuevas funcionalidades y optimización de consultas en la base de datos para asegurar sincronización en tiempo real con SQL Server y TypeORM. Implementación de una función de chat interactivo integrando React, Tailwind, NestJS y MongoDB. Diseño de sistemas de notificaciones automatizadas por WhatsApp y email bajo una arquitectura guiada por eventos (pub/sub). Creación y actualización de interfaces de usuario dinámicas empleando Next.js, React y NestJS.",
+                "highlights": [
+                    "Desarrollo de nuevas funcionalidades y optimización de consultas en la base de datos para asegurar sincronización en tiempo real con SQL Server y TypeORM.",
+                    "Implementación de una función de chat interactivo integrando React, Tailwind, NestJS y MongoDB.",
+                    "Diseño de sistemas de notificaciones automatizadas por WhatsApp y email bajo una arquitectura guiada por eventos (pub/sub).",
+                    "Creación y actualización de interfaces de usuario dinámicas empleando Next.js, React y NestJS."
+                ]
+            },
+            {
+                "period": "Ago 2023 - Nov 2023",
+                "role": "Desarrollador Full-Stack",
+                "title": "Xirectds",
+                "description": "Contribución desde cero en la creación del Producto Mínimo Viable (MVP) para la plataforma web de gestión de prospectos Soxial Leads. Desarrollo y maquetación de la interfaz de usuario utilizando Next.js, React y NestJS. Modificaciones a nivel de base de datos e interacciones mediante TypeORM y SQL Server.",
+                "highlights": [
+                    "Contribución desde cero en la creación del Producto Mínimo Viable (MVP) para la plataforma web de gestión de prospectos Soxial Leads.",
+                    "Desarrollo y maquetación de la interfaz de usuario utilizando Next.js, React y NestJS.",
+                    "Modificaciones a nivel de base de datos e interacciones mediante TypeORM y SQL Server."
+                ]
+            },
+            {
+                "period": "Ago 2022 - Feb 2023",
+                "role": "Desarrollador Full-Stack Jr",
+                "title": "Kargoru",
+                "description": "Desarrollo de la interfaz de usuario y vistas web con alta interactividad utilizando Angular, RxJS y NgRx. Integración y automatización de notificaciones por correo y WhatsApp conectando lógicas en NestJS y Mongoose. Integración de plataformas, APIs y pasarelas externas, incluyendo WordPress y pasarelas de carga.",
+                "highlights": [
+                    "Desarrollo de la interfaz de usuario y vistas web con alta interactividad utilizando Angular, RxJS y NgRx.",
+                    "Integración y automatización de notificaciones por correo y WhatsApp conectando lógicas en NestJS y Mongoose.",
+                    "Integración de plataformas, APIs y pasarelas externas, incluyendo WordPress y pasarelas de carga (sucarga.com)."
+                ]
+            }
+        ],
+        "contactSection": {
+            "aboutTitle": "SOBRE_MI",
+            "aboutP1": "Soy Desarrollador Full Stack con 3 años de experiencia, especializado en la construcción y optimización de aplicaciones web utilizando tecnologías como React, Node.js, Express, Sequelize, PostgreSQL y Git. Cuento con experiencia en la aplicación de metodologías ágiles como SCRUM para entregar soluciones eficientes y de alta calidad.",
+            "aboutP2": "Soy Ingeniero de Sistemas con un fuerte enfoque en el desarrollo web, un camino que elegí desde mi formación académica. A lo largo de esta trayectoria, he trabajado en diversos proyectos que han fortalecido mi perfil técnico y me han brindado experiencia práctica con tecnologías modernas como Vite, Redis y React.",
+            "github": "GITHUB",
+            "linkedin": "LINKEDIN",
+            "cv": "CV_ARCHIVE",
+            "techStack": "TECH_STACK",
+            "experience": "EXPERIENCE",
+            "role": "FULL_STACK",
+            "contactTitle": "CONTACTO",
+            "userId": "USER_ID",
+            "namePlaceholder": "Ingresa tu nombre...",
+            "accessPoint": "ACCESS_POINT",
+            "emailPlaceholder": "tu@email.com",
+            "dataPayload": "DATA_PAYLOAD",
+            "messagePlaceholder": "Escribe tu mensaje aqui...",
+            "send": "EXECUTE_TRANSMISSION"
+        },
+        "heroTicker": [
+            "REACT.JS",
+            "NODE.JS",
+            "TYPESCRIPT",
+            "NEST.JS",
+            "VITE"
+        ],
+        "footerLeft": "© 2024 SYSTEM_ARCHITECT. EXECUTE_SUCCESS.",
+        "footerLinks": [
+            "GITHUB",
+            "LINKEDIN",
+            "TERMINAL"
+        ]
+    }
+}
