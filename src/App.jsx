@@ -31,50 +31,198 @@ const content = {
     },
     projects: [
       {
-        code: '0x01 // SYSTEM_ORCHESTRATOR',
-        title: 'Nebula Backend Engine',
-        description:
-          'High-availability microservices architecture designed for real-time data processing and asynchronous task management. Implements complex event-driven patterns with fault-tolerant recovery protocols.',
-        tags: ['Node.js', 'NestJS', 'SQL', 'AWS'],
+        code: '0x01 // LSC_TRANSLATOR',
+        title: 'colombian_snl_traductor',
+        description: 'Colombian Sign Language (LSC) translator that uses computer vision and deep learning (LSTM models) to translate vowels, numbers, and gestures in real time through the webcam.',
+        tags: ['React', 'MUI', 'Flask', 'TensorFlow', 'MediaPipe', 'OpenCV', 'Python'],
+        actions: [
+          { label: 'SOURCE_CODE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-1-snl_translator.png',
+      },
+      {
+        code: '0x02 // WEATHER_ASSISTANT',
+        title: 'WeatherAssistant',
+        description: 'Intelligent weather assistant for Cali, Colombia with voice recognition, 7-day history, weather-based suggestions, and automatic notifications.',
+        tags: ['React', 'Vite', 'Material Tailwind', 'FastAPI', 'Whisper (STT)', 'WeatherAPI'],
+        actions: [
+          { label: 'SOURCE_CODE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-2-weather.jpeg',
+      },
+      {
+        code: '0x03 // WHATSAPP_API',
+        title: 'whatsapp-web-api',
+        description: 'REST API to send WhatsApp messages using a queuing system with Redis, avoiding blocks due to mass sending. Includes QR authentication, reports, and automatic processing.',
+        tags: ['Node.js', 'Express', 'Redis', 'Puppeteer'],
+        actions: [
+          { label: 'SOURCE_CODE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/whatsapp-web-api/refs/heads/main/src/whatsapp-api-server.png',
+      },
+      {
+        code: '0x04 // OBRA_APP',
+        title: 'app-gestion-de-obra',
+        description: 'Mobile app for construction project management. It allows creating projects, recording income/expenses, viewing pie charts, and managing budgets with local persistence and Firebase.',
+        tags: ['React Native', 'Expo', 'Firebase', 'SQLite', 'AsyncStorage', 'react-native-chart-kit'],
+        actions: [
+          { label: 'SOURCE_CODE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/jenestiven/app-gestion-de-obra/refs/heads/final_details/assets/preview.png',
+      },
+      {
+        code: '0x05 // DUOLINGO_MANUAL',
+        title: 'manual-duolingo',
+        description: 'Duolingo user manual in Spanish. It contains detailed tutorials about introduction, getting started guide, interface, lessons, leagues, streaks, shop, challenges, and more.',
+        tags: ['React', 'Vite', 'Tailwind CSS', 'React Router'],
         actions: [
           { label: 'LIVE_DEMO', icon: 'terminal', variant: 'primary' },
           { label: 'SOURCE_CODE', icon: 'code', variant: 'ghost' },
         ],
-        image:
-          'https://lh3.googleusercontent.com/aida-public/AB6AXuBUZQSygAZGUsBFjOELr58uSb7a4iTMmbQSLJ14PHaoI9xSkpyOQYI8p9J06rVLbouUUZeqllaGYtyFELlsvhQ7PE7Zj1mPZ18sjN-bl-qXl-6EJMN1FA9U2Wz4ODOTnBBO54hZQpFGVmiPT4e-UhK7uJPAtkRcwFJeT4R2oWLEinhJKH8f4m0CCGRHtMFV8B7vVf98VBcyM-C98T_dQik6dCcLcr8eS3ktIWkpx1haFueGbXjyykr6N5970PlpfUjTXFJviQY1qak',
+        image: 'https://raw.githubusercontent.com/Iron-mind/manual-duolingo/refs/heads/main/manual-web/src/assets/preview.png',
       },
       {
-        code: '0x02 // CONTAINER_X',
-        title: 'Hydra Ops',
-        description:
-          'Automated CI/CD pipeline manager with multi-cloud deployment capabilities and runtime monitoring.',
-        tags: ['Docker', 'AWS'],
+        code: '0x06 // WUFWUF',
+        title: 'WufWuf',
+        description: 'Appointment system for animal adoption with microservices. It manages appointments, catalogs animals with photos, and ensures secure authentication. It uses an API Gateway with a reverse proxy.',
+        tags: ['Node.js', 'Express', 'Docker', 'http-proxy-middleware'],
         actions: [
-          { label: 'REPO', icon: 'terminal', variant: 'primary' },
-          { label: 'DOCS', icon: 'description', variant: 'ghost' },
+          { label: 'SOURCE_CODE', icon: 'code', variant: 'ghost' },
         ],
-        image:
-          'https://lh3.googleusercontent.com/aida-public/AB6AXuB5DYn4-L8mebDtMnBEy7C9Iu3-mpa_9Xjev8gIOOkpDSjzHGobdIGEeAAcFnTW9L1ff9ghiZeq_XowjhomsulLkFqTBl7qjK1LNuMadl3MujTMp-kb6ggg3oUrGiTYdaQ_RcybRMnsNd6hpiM_nSI6-jPOsBkWYW7A08-Lvn00jh4Iow9AwXQBZ11EQbYtQZk-USxzjQv35QQW2D6HARDHPAeur1lAepYA-814TXkNqBjPKcY_JGjEV21mCSzoisGyb_LmF0vzu1U',
+        image: 'https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/wufwuf.png',
       },
       {
-        code: '0x03 // DATA_VAULT',
-        title: 'Encryption API',
-        description:
-          'Enterprise-grade RESTful API specialized in military-grade encryption for sensitive metadata handling and secure handshake protocols.',
-        tags: ['NestJS', 'SQL', 'Node.js'],
-        actions: [{ label: 'VIEW_REPOSITORY', icon: 'terminal', variant: 'primary' }],
-        image:
-          'https://lh3.googleusercontent.com/aida-public/AB6AXuC_UlWfHb0UDxL6dGyiBOXkzJbXiIvRIxiPRXw5fE9mY4M5Y-6DZJNoT4BbUle0YKptbzJ7dc3fV1eXxroEEydP1XAeZM9IDCXMr9ODOWqBBa37F3WZJZlTl6NThvyyWukF58DHFU7pQFjnm_1-582RS61StFm5Wm5jcsgtjUq7yYfKBcGztXsd_puX6akP_x8vCo12E7PDxFlOMjYgOp1np10aq9lp8TuKPu0dD-WAhX1EmiGXtTi3J9JPtfqVvEbKQ_tvyivs8ms',
+        code: '0x07 // MEDICAL_IMG_PROC',
+        title: 'M-image-processor',
+        description: 'Medical image processor (NIfTI format). Tools: segmentation (region growing), k-means, thresholding, histogram equalization, z-score transformation, edge detection, and image registration.',
+        tags: ['React', 'Vite', 'Tailwind', 'Flask', 'NiBabel', 'SimpleITK', 'SciPy', 'Matplotlib'],
+        actions: [
+          { label: 'SOURCE_CODE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/M-image-processor/refs/heads/main/preview.png',
       },
       {
-        code: '0x04 // CLOUD_SYNC',
-        title: 'S3 Auto-Proxy',
-        description:
-          'Dynamic proxy server for AWS S3 buckets allowing on-the-fly image optimization and secure credential-less public access management.',
-        tags: ['AWS', 'Docker', 'Node.js'],
-        actions: [{ label: 'VIEW_REPOSITORY', icon: 'terminal', variant: 'primary' }],
-        image:
-          'https://lh3.googleusercontent.com/aida-public/AB6AXuDERO1qxIGdtV0OgN7oNwdcbGITq1_nvOW025LbEGJ2pUGXDZL8pJm_02L5Y9EU-ojS3GtDEkBAjqXiT8KREDYrq2VhwE2pFSjeNYG5ysOdZJLfwIt0JE-I_a5zNpdCir-_yEJOmff5PGDgYysAwDlWZ_-B1acJfH8BFLcmMDRF5inN2WsHdnzz5v8mdZyUGUqiDRIJ4vV78RhAI_pDMLLWLEOsvqgqRTyeNgVshfseLbZfJ1QV6Qg9YRgbCBUTpBlkMVJEZxoRlRk',
+        code: '0x08 // CONFLICT_CHATBOT',
+        title: 'colombian-conflict-chatbot',
+        description: 'RAG chatbot about the Colombian armed conflict using JEP reports. Fine-tuned models (Llama-3.2, Mistral) published on HuggingFace. Custom dataset on HuggingFace.',
+        tags: ['Python', 'Jupyter', 'Llama', 'Mistral', 'LangChain', 'FAISS', 'Gradio', 'HuggingFace'],
+        actions: [
+          { label: 'SOURCE_CODE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/colombian-conflict-chatbot/refs/heads/main/docs/schema.png',
+      },
+      {
+        code: '0x09 // VISUAL_NOVEL',
+        title: 'Visual Novel',
+        description: '3D visual novel "Virtual Odyssey". In the year 2055, Xander must save his grandmother by entering the world of hacking and the Virtual World. Includes 3D characters, interactive scenarios, and a dialogue system.',
+        tags: ['React', 'Three.js', 'React Three Fiber', '@react-three/rapier', 'Tailwind CSS'],
+        actions: [
+          { label: 'LIVE_DEMO', icon: 'terminal', variant: 'primary' },
+          { label: 'SOURCE_CODE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://proyecto-integrador-liard.vercel.app/images/gameplay1.png',
+      },
+      {
+        code: '0x0A // FIVE_TO_FLY',
+        title: 'five-to-fly',
+        description: 'Travel recommendation app. Users answer a questionnaire and the system calculates weights to recommend personalized tourist destinations. Includes registration, login, and result rating.',
+        tags: ['React', 'Vite', 'Tailwind', 'Django REST', 'PostgreSQL', 'Docker'],
+        actions: [
+          { label: 'LIVE_DEMO', icon: 'terminal', variant: 'primary' },
+          { label: 'SOURCE_CODE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/five-to-fly/refs/heads/main/five-to-fly.png',
+      },
+      {
+        code: '0x0B // PORTFOLIO_3D',
+        title: 'juanda-portfolio-3d',
+        description: 'Personal 3D portfolio of Juan David Tovar (Iron-mind), deployed on Vercel. Displays projects and skills with 3D visual effects.',
+        tags: ['React', 'JavaScript', 'CSS', 'React Three Fiber', 'Three.js'],
+        actions: [
+          { label: 'LIVE_DEMO', icon: 'terminal', variant: 'primary' },
+          { label: 'SOURCE_CODE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/juanda-portfolio-3d/refs/heads/main/preview.png',
+      },
+      {
+        code: '0x0C // RENAULT_APP',
+        title: 'renault_app',
+        description: 'Application to manage a Renault electric car dealership. It allows managing vehicles, quotes, and customers. 4 contributors.',
+        tags: ['React', 'Next.js', 'Django', 'Python', 'JavaScript'],
+        actions: [
+          { label: 'SOURCE_CODE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/renault_app/refs/heads/main/readme_imgs/allcars.png',
+      },
+      {
+        code: '0x0D // VIDEOGAMES_PI',
+        title: 'PI-videogames',
+        description: 'Individual project: video game website with search, filtering by genre/rating, game creation, and details. Consumes the RAWG API. Deployed on GitHub Pages and Heroku.',
+        tags: ['React', 'Redux', 'Express', 'Sequelize', 'PostgreSQL'],
+        actions: [
+          { label: 'SOURCE_CODE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/PI-videogames/refs/heads/main/home.png',
+      },
+      {
+        code: '0x0E // MARVEL_APP',
+        title: 'MarvelApp',
+        description: 'Mobile app to search for Marvel characters and explore their comics. Includes infinite scroll, search, and character details. Downloadable as APK.',
+        tags: ['React Native', 'Expo', 'JavaScript', 'Marvel API'],
+        actions: [
+          { label: 'SOURCE_CODE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/MarvelApp/refs/heads/main/imgs/abomb.png',
+      },
+      {
+        code: '0x0F // ECOMMERCE_FRONT',
+        title: 'FrontEcommerce',
+        description: 'E-commerce frontend with 6 contributors. Modern interface for an online store with reusable components and styles using SCSS.',
+        tags: ['React', 'SCSS', 'JavaScript', 'Express', 'PostgreSQL'],
+        actions: [
+          { label: 'SOURCE_CODE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/NicoRob92/FrontEcommerce/refs/heads/dev/imgs/home.jpeg',
+      },
+      {
+        code: '0x10 // PACMAN',
+        title: 'Pacman_Juego-2.0',
+        description: 'Improved version of the classic Pac-Man developed in pure JavaScript with the Processing library. Playable from Replit.',
+        tags: ['JavaScript', 'Processing (p5.js)', 'HTML', 'CSS'],
+        actions: [
+          { label: 'SOURCE_CODE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/Pacman_Juego-2.0/refs/heads/master/pacman-preview.png',
+      },
+      {
+        code: '0x11 // CPP_GAME',
+        title: 'videojuego-cpp',
+        description: 'Classic brain game of crossing a fox, a rabbit, and a lettuce to the other side of the river using a boat. It runs via console using OOP in pure C++.',
+        tags: ['C++', 'Programación Orientada a Objetos'],
+        actions: [
+          { label: 'SOURCE_CODE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://user-images.githubusercontent.com/63685121/103682243-9aedf580-4f56-11eb-895a-2b249a7416bb.png',
+      },
+      {
+        code: '0x12 // BOMBERO_AI',
+        title: '"Bombero Inteligente"',
+        description: 'Artificial Intelligence project from Universidad del Valle. It implements 5 search algorithms (Breadth-First, Uniform Cost, Depth-First, Greedy, and A*) to solve a problem.',
+        tags: ['Python', 'Pygame', 'Tkinter'],
+        actions: [
+          { label: 'SOURCE_CODE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://github.com/danielcaicedo98/ProyectoIA/assets/61769073/6ebb662e-1541-4fac-afe2-9009ed8d5e63',
+      },
+      {
+        code: '0x13 // YOSHI_BATTLE',
+        title: "Yoshi's Battle",
+        description: 'Artificial Intelligence project from Universidad del Valle. It implements the Minimax algorithm with pruning for an adversarial game between two Yoshis that move like chess knights on a board. They must collect regular coins (1 pt) and special coins (3 pts). It features 3 difficulty levels (beginner depth 2, intermediate depth 4, expert depth 6). Same 3 contributors: Daniel Caicedo, Juan David Tovar, and Julian Alvarez.',
+        tags: ['Python', 'Pygame'],
+        actions: [
+          { label: 'SOURCE_CODE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://github.com/user-attachments/assets/acd1c35c-c70f-4bfe-9129-32f53390dadc',
       },
     ],
     profileSection: {
@@ -196,50 +344,198 @@ const content = {
     },
     projects: [
       {
-        code: '0x01 // SYSTEM_ORCHESTRATOR',
-        title: 'Nebula Backend Engine',
-        description:
-          'Arquitectura de microservicios de alta disponibilidad diseñada para procesamiento de datos en tiempo real y gestion asincrona de tareas. Implementa patrones complejos orientados a eventos con protocolos de recuperacion tolerantes a fallos.',
-        tags: ['Node.js', 'NestJS', 'SQL', 'AWS'],
+        code: '0x01 // LSC_TRANSLATOR',
+        title: 'colombian_snl_traductor',
+        description: 'Traductor de Lengua de Señas Colombiana (LSC) que utiliza visión por computadora y deep learning (modelos LSTM) para traducir vocales, números y gestos en tiempo real a través de la cámara web.',
+        tags: ['React', 'MUI', 'Flask', 'TensorFlow', 'MediaPipe', 'OpenCV', 'Python'],
+        actions: [
+          { label: 'CODIGO_FUENTE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-1-snl_translator.png',
+      },
+      {
+        code: '0x02 // WEATHER_ASSISTANT',
+        title: 'WeatherAssistant',
+        description: 'Asistente meteorológico inteligente para Cali, Colombia con reconocimiento de voz, historial de 7 días, sugerencias basadas en clima y notificaciones automáticas.',
+        tags: ['React', 'Vite', 'Material Tailwind', 'FastAPI', 'Whisper (STT)', 'WeatherAPI'],
+        actions: [
+          { label: 'CODIGO_FUENTE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-2-weather.jpeg',
+      },
+      {
+        code: '0x03 // WHATSAPP_API',
+        title: 'whatsapp-web-api',
+        description: 'API REST para enviar mensajes de WhatsApp mediante un sistema de colas con Redis, evitando bloqueos por envío masivo. Incluye autenticación QR, reportes y procesamiento automático.',
+        tags: ['Node.js', 'Express', 'Redis', 'Puppeteer'],
+        actions: [
+          { label: 'CODIGO_FUENTE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/whatsapp-web-api/refs/heads/main/src/whatsapp-api-server.png',
+      },
+      {
+        code: '0x04 // OBRA_APP',
+        title: 'app-gestion-de-obra',
+        description: 'App móvil para gestión de obras de construcción. Permite crear proyectos, registrar ingresos/gastos, visualizar gráficos circulares y gestionar presupuestos con persistencia local y Firebase.',
+        tags: ['React Native', 'Expo', 'Firebase', 'SQLite', 'AsyncStorage', 'react-native-chart-kit'],
+        actions: [
+          { label: 'CODIGO_FUENTE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/jenestiven/app-gestion-de-obra/refs/heads/final_details/assets/preview.png',
+      },
+      {
+        code: '0x05 // DUOLINGO_MANUAL',
+        title: 'manual-duolingo',
+        description: 'Manual de usuario en español de Duolingo. Contiene tutoriales detallados sobre introducción, guía de inicio, interfaz, lecciones, ligas, rachas, tienda, desafíos y más.',
+        tags: ['React', 'Vite', 'Tailwind CSS', 'React Router'],
         actions: [
           { label: 'DEMO_EN_VIVO', icon: 'terminal', variant: 'primary' },
           { label: 'CODIGO_FUENTE', icon: 'code', variant: 'ghost' },
         ],
-        image:
-          'https://lh3.googleusercontent.com/aida-public/AB6AXuBUZQSygAZGUsBFjOELr58uSb7a4iTMmbQSLJ14PHaoI9xSkpyOQYI8p9J06rVLbouUUZeqllaGYtyFELlsvhQ7PE7Zj1mPZ18sjN-bl-qXl-6EJMN1FA9U2Wz4ODOTnBBO54hZQpFGVmiPT4e-UhK7uJPAtkRcwFJeT4R2oWLEinhJKH8f4m0CCGRHtMFV8B7vVf98VBcyM-C98T_dQik6dCcLcr8eS3ktIWkpx1haFueGbXjyykr6N5970PlpfUjTXFJviQY1qak',
+        image: 'https://raw.githubusercontent.com/Iron-mind/manual-duolingo/refs/heads/main/manual-web/src/assets/preview.png',
       },
       {
-        code: '0x02 // CONTAINER_X',
-        title: 'Hydra Ops',
-        description:
-          'Gestor automatizado de pipelines CI/CD con despliegue multicloud y monitorizacion en tiempo de ejecucion.',
-        tags: ['Docker', 'AWS'],
+        code: '0x06 // WUFWUF',
+        title: 'WufWuf',
+        description: 'Sistema de citas para adopción de animales con microservicios. Gestiona citas, cataloga animales con fotos y garantiza autenticación segura. Utiliza un API Gateway con proxy inverso.',
+        tags: ['Node.js', 'Express', 'Docker', 'http-proxy-middleware'],
         actions: [
-          { label: 'REPO', icon: 'terminal', variant: 'primary' },
-          { label: 'DOCS', icon: 'description', variant: 'ghost' },
+          { label: 'CODIGO_FUENTE', icon: 'code', variant: 'ghost' },
         ],
-        image:
-          'https://lh3.googleusercontent.com/aida-public/AB6AXuB5DYn4-L8mebDtMnBEy7C9Iu3-mpa_9Xjev8gIOOkpDSjzHGobdIGEeAAcFnTW9L1ff9ghiZeq_XowjhomsulLkFqTBl7qjK1LNuMadl3MujTMp-kb6ggg3oUrGiTYdaQ_RcybRMnsNd6hpiM_nSI6-jPOsBkWYW7A08-Lvn00jh4Iow9AwXQBZ11EQbYtQZk-USxzjQv35QQW2D6HARDHPAeur1lAepYA-814TXkNqBjPKcY_JGjEV21mCSzoisGyb_LmF0vzu1U',
+        image: 'https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/wufwuf.png',
       },
       {
-        code: '0x03 // DATA_VAULT',
-        title: 'Encryption API',
-        description:
-          'API RESTful de nivel empresarial especializada en cifrado de grado militar para el manejo de metadatos sensibles y protocolos de handshake seguros.',
-        tags: ['NestJS', 'SQL', 'Node.js'],
-        actions: [{ label: 'VER_REPOSITORIO', icon: 'terminal', variant: 'primary' }],
-        image:
-          'https://lh3.googleusercontent.com/aida-public/AB6AXuC_UlWfHb0UDxL6dGyiBOXkzJbXiIvRIxiPRXw5fE9mY4M5Y-6DZJNoT4BbUle0YKptbzJ7dc3fV1eXxroEEydP1XAeZM9IDCXMr9ODOWqBBa37F3WZJZlTl6NThvyyWukF58DHFU7pQFjnm_1-582RS61StFm5Wm5jcsgtjUq7yYfKBcGztXsd_puX6akP_x8vCo12E7PDxFlOMjYgOp1np10aq9lp8TuKPu0dD-WAhX1EmiGXtTi3J9JPtfqVvEbKQ_tvyivs8ms',
+        code: '0x07 // MEDICAL_IMG_PROC',
+        title: 'M-image-processor',
+        description: 'Procesador de imágenes médicas (formato NIfTI). Herramientas: segmentación (region growing), k-means, umbralizado, ecualización de histogramas, transformación z-score, detección de bordes y registro de imágenes.',
+        tags: ['React', 'Vite', 'Tailwind', 'Flask', 'NiBabel', 'SimpleITK', 'SciPy', 'Matplotlib'],
+        actions: [
+          { label: 'CODIGO_FUENTE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/M-image-processor/refs/heads/main/preview.png',
       },
       {
-        code: '0x04 // CLOUD_SYNC',
-        title: 'S3 Auto-Proxy',
-        description:
-          'Servidor proxy dinamico para buckets de AWS S3 que permite optimizacion de imagenes sobre la marcha y gestion segura de acceso publico sin credenciales.',
-        tags: ['AWS', 'Docker', 'Node.js'],
-        actions: [{ label: 'VER_REPOSITORIO', icon: 'terminal', variant: 'primary' }],
-        image:
-          'https://lh3.googleusercontent.com/aida-public/AB6AXuDERO1qxIGdtV0OgN7oNwdcbGITq1_nvOW025LbEGJ2pUGXDZL8pJm_02L5Y9EU-ojS3GtDEkBAjqXiT8KREDYrq2VhwE2pFSjeNYG5ysOdZJLfwIt0JE-I_a5zNpdCir-_yEJOmff5PGDgYysAwDlWZ_-B1acJfH8BFLcmMDRF5inN2WsHdnzz5v8mdZyUGUqiDRIJ4vV78RhAI_pDMLLWLEOsvqgqRTyeNgVshfseLbZfJ1QV6Qg9YRgbCBUTpBlkMVJEZxoRlRk',
+        code: '0x08 // CONFLICT_CHATBOT',
+        title: 'colombian-conflict-chatbot',
+        description: 'Chatbot RAG sobre el conflicto armado colombiano usando informes de la JEP. Modelos fine-tuneados (Llama-3.2, Mistral) publicados en HuggingFace. Dataset propio en HuggingFace.',
+        tags: ['Python', 'Jupyter', 'Llama', 'Mistral', 'LangChain', 'FAISS', 'Gradio', 'HuggingFace'],
+        actions: [
+          { label: 'CODIGO_FUENTE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/colombian-conflict-chatbot/refs/heads/main/docs/schema.png',
+      },
+      {
+        code: '0x09 // VISUAL_NOVEL',
+        title: 'Visual Novel',
+        description: 'Novela visual 3D "Virtual Odyssey". En el año 2055, Xander debe salvar a su abuela adentrándose en el mundo del hacking y el Mundo Virtual. Incluye personajes 3D, escenarios interactivos y sistema de diálogos.',
+        tags: ['React', 'Three.js', 'React Three Fiber', '@react-three/rapier', 'Tailwind CSS'],
+        actions: [
+          { label: 'DEMO_EN_VIVO', icon: 'terminal', variant: 'primary' },
+          { label: 'CODIGO_FUENTE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://proyecto-integrador-liard.vercel.app/images/gameplay1.png',
+      },
+      {
+        code: '0x0A // FIVE_TO_FLY',
+        title: 'five-to-fly',
+        description: 'App de recomendación de viajes. Los usuarios responden un cuestionario y el sistema calcula ponderaciones para recomendar destinos turísticos personalizados. Incluye registro, login y valoración de resultados.',
+        tags: ['React', 'Vite', 'Tailwind', 'Django REST', 'PostgreSQL', 'Docker'],
+        actions: [
+          { label: 'DEMO_EN_VIVO', icon: 'terminal', variant: 'primary' },
+          { label: 'CODIGO_FUENTE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/five-to-fly/refs/heads/main/five-to-fly.png',
+      },
+      {
+        code: '0x0B // PORTFOLIO_3D',
+        title: 'juanda-portfolio-3d',
+        description: 'Portafolio 3D personal de Juan David Tovar (Iron-mind), desplegado en Vercel. Muestra proyectos y habilidades con efectos visuales 3D.',
+        tags: ['React', 'JavaScript', 'CSS', 'React Three Fiber', 'Three.js'],
+        actions: [
+          { label: 'DEMO_EN_VIVO', icon: 'terminal', variant: 'primary' },
+          { label: 'CODIGO_FUENTE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/juanda-portfolio-3d/refs/heads/main/preview.png',
+      },
+      {
+        code: '0x0C // RENAULT_APP',
+        title: 'renault_app',
+        description: 'Aplicación para administrar un concesionario de autos eléctricos Renault. Permite gestionar vehículos, cotizaciones y clientes. 4 contribuidores.',
+        tags: ['React', 'Next.js', 'Django', 'Python', 'JavaScript'],
+        actions: [
+          { label: 'CODIGO_FUENTE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/renault_app/refs/heads/main/readme_imgs/allcars.png',
+      },
+      {
+        code: '0x0D // VIDEOGAMES_PI',
+        title: 'PI-videogames',
+        description: 'Proyecto individual: web de videojuegos con búsqueda, filtrado por género/rating, creación de juegos y detalle. Consume la API de RAWG. Desplegado en GitHub Pages y Heroku.',
+        tags: ['React', 'Redux', 'Express', 'Sequelize', 'PostgreSQL'],
+        actions: [
+          { label: 'CODIGO_FUENTE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/PI-videogames/refs/heads/main/home.png',
+      },
+      {
+        code: '0x0E // MARVEL_APP',
+        title: 'MarvelApp',
+        description: 'App móvil para buscar personajes de Marvel y explorar sus cómics. Incluye scroll infinito, búsqueda y detalle de personajes. Descargable como APK.',
+        tags: ['React Native', 'Expo', 'JavaScript', 'Marvel API'],
+        actions: [
+          { label: 'CODIGO_FUENTE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/MarvelApp/refs/heads/main/imgs/abomb.png',
+      },
+      {
+        code: '0x0F // ECOMMERCE_FRONT',
+        title: 'FrontEcommerce',
+        description: 'Frontend de e-commerce con 6 contribuidores. Interfaz moderna para tienda online con componentes reutilizables y estilos con SCSS.',
+        tags: ['React', 'SCSS', 'JavaScript', 'Express', 'PostgreSQL'],
+        actions: [
+          { label: 'CODIGO_FUENTE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/NicoRob92/FrontEcommerce/refs/heads/dev/imgs/home.jpeg',
+      },
+      {
+        code: '0x10 // PACMAN',
+        title: 'Pacman_Juego-2.0',
+        description: 'Versión mejorada del clásico Pac-Man desarrollado en JavaScript puro con la librería Processing. Jugable desde Replit.',
+        tags: ['JavaScript', 'Processing (p5.js)', 'HTML', 'CSS'],
+        actions: [
+          { label: 'CODIGO_FUENTE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://raw.githubusercontent.com/Iron-mind/Pacman_Juego-2.0/refs/heads/master/pacman-preview.png',
+      },
+      {
+        code: '0x11 // CPP_GAME',
+        title: 'videojuego-cpp',
+        description: 'Clásico juego mental de cruzar un zorro, un conejo y una lechuga al otro lado del río usando una barca. Funciona por consola con POO en C++ puro.',
+        tags: ['C++', 'Programación Orientada a Objetos'],
+        actions: [
+          { label: 'CODIGO_FUENTE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://user-images.githubusercontent.com/63685121/103682243-9aedf580-4f56-11eb-895a-2b249a7416bb.png',
+      },
+      {
+        code: '0x12 // BOMBERO_AI',
+        title: '"Bombero Inteligente"',
+        description: 'Proyecto de Inteligencia Artificial de la Universidad del Valle. Implementa 5 algoritmos de búsqueda (Amplitud, Costo Uniforme, Profundidad, Ávara y A*) para resolver el problema un problema.',
+        tags: ['Python', 'Pygame', 'Tkinter'],
+        actions: [
+          { label: 'CODIGO_FUENTE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://github.com/danielcaicedo98/ProyectoIA/assets/61769073/6ebb662e-1541-4fac-afe2-9009ed8d5e63',
+      },
+      {
+        code: '0x13 // YOSHI_BATTLE',
+        title: "Yoshi's Battle",
+        description: 'Proyecto de Inteligencia Artificial de la Universidad del Valle. Implementa el algoritmo Minimax con poda para un juego adversarial entre dos Yoshis que se mueven como caballos de ajedrez en un tablero. Deben recolectar monedas normales (1 pt) y especiales (3 pts). Tiene 3 niveles de dificultad (principiante prof. 2, intermedio prof. 4, experto prof. 6). Mismos 3 colaboradores: Daniel Caicedo, Juan David Tovar y Julian Alvarez.',
+        tags: ['Python', 'Pygame'],
+        actions: [
+          { label: 'CODIGO_FUENTE', icon: 'code', variant: 'ghost' },
+        ],
+        image: 'https://github.com/user-attachments/assets/acd1c35c-c70f-4bfe-9129-32f53390dadc',
       },
     ],
     profileSection: {
