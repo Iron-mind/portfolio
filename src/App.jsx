@@ -26,8 +26,8 @@ const content = {
     projectsSection: {
       kicker: 'DEPLOYMENT_HISTORY',
       title: 'SELECTED_PROJECTS',
-      description:
-        'Iterative prototypes and production-ready architectures built for high-performance and scalability. Explore the neural network of my development journey.',
+      description: ""
+      // 'Iterative prototypes and production-ready architectures built for high-performance and scalability. Explore the neural network of my development journey.',
     },
     projects: [
       {
@@ -337,10 +337,10 @@ const content = {
       },
     },
     projectsSection: {
-      kicker: 'HISTORIAL_DESPLIEGUE',
-      title: 'PROYECTOS_SELECCIONADOS',
-      description:
-        'Prototipos iterativos y arquitecturas listas para produccion construidas para alto rendimiento y escalabilidad. Explora la red neuronal de mi trayectoria de desarrollo.',
+      kicker: 'Historial',
+      title: 'PROYECTOS',
+      description: ""
+      // 'Prototipos iterativos y arquitecturas listas para produccion construidas para alto rendimiento y escalabilidad. Explora la red neuronal de mi trayectoria de desarrollo.',
     },
     projects: [
       {
@@ -714,11 +714,14 @@ function App() {
             <div className="projects-grid">
               {locale.projects.map((project) => (
                 <article className="project-card glass" key={project.title}>
+                  <div>
+                    <div className="project-code">{project.code}</div>
+                    <h3>{project.title}</h3>
+                  </div>
+                  <div className="project-media">
+                    <img src={project.image} alt={project.title} />
+                  </div>
                   <div className="project-body">
-                    <div>
-                      <div className="project-code">{project.code}</div>
-                      <h3>{project.title}</h3>
-                    </div>
                     <p>{project.description}</p>
                     <div className="tag-list">
                       {project.tags.map((tag) => (
@@ -737,9 +740,6 @@ function App() {
                         </button>
                       ))}
                     </div>
-                  </div>
-                  <div className="project-media">
-                    <img src={project.image} alt={project.title} />
                   </div>
                 </article>
               ))}
