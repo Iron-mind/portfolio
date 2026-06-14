@@ -143,7 +143,7 @@ function App() {
                       <div className="competency-list">
                         {locale.competencies.advanced.map((tech) => (
                           <span key={tech} className="competency-tag">
-                            `{tech}`
+                            {tech}
                           </span>
                         ))}
                       </div>
@@ -153,7 +153,7 @@ function App() {
                       <div className="competency-list">
                         {locale.competencies.intermediate.map((tech) => (
                           <span key={tech} className="competency-tag">
-                            `{tech}`
+                            {tech}
                           </span>
                         ))}
                       </div>

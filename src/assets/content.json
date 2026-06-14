@@ -468,18 +468,18 @@
                 "period": "Apr 2024 - Dec 2025",
                 "role": "Full-Stack Developer Jr",
                 "title": "Justo Pago",
-                "description": "Developed new platform features and optimized database queries to ensure real-time synchronization using SQL Server and TypeORM. Implemented an interactive chat feature integrating React, Tailwind, NestJS, and MongoDB. Designed automated WhatsApp and email notification systems based on an event-driven (pub/sub) architecture. Created and maintained dynamic user interfaces using Next.js, React, and NestJS.",
+                "description": "Implemented database modifications and backend workflows using Firebase Functions and Firestore.\n\nDeveloped a real-time chat feature using React, Ant Design, Express, and Firebase Realtime Database.\n\nBuilt and maintained web user interfaces and application features using Vite, React, and Redux.\n\nLed the integration of third-party services and APIs, including ZapSign, Twilio, and Gemini API.",
                 "highlights": [
-                    "Developed new features and optimized database queries to ensure real-time synchronization using SQL Server and TypeORM.",
-                    "Implemented an interactive chat feature integrating React, Tailwind, NestJS, and MongoDB.",
-                    "Designed automated WhatsApp and email notification systems using an event-driven (pub/sub) architecture.",
-                    "Created and maintained dynamic user interfaces with Next.js, React, and NestJS."
+                    "Implemented database modifications and backend workflows using Firebase Functions and Firestore.",
+                    "Developed a real-time chat feature using React, Ant Design, Express, and Firebase Realtime Database.",
+                    "Built and maintained web user interfaces and application features using Vite, React, and Redux.",
+                    "Led the integration of third-party services and APIs, including ZapSign, Twilio, and Gemini API."
                 ]
             },
             {
                 "period": "Aug 2023 - Nov 2023",
                 "role": "Full-Stack Developer",
-                "title": "Xirectds",
+                "title": "Xirectds (Freelance)",
                 "description": "Contributed from the ground up to the development of the Minimum Viable Product (MVP) for the Soxial Leads prospect management platform. Built and implemented the user interface using Next.js, React, and NestJS. Performed database modifications and interactions through TypeORM and SQL Server.",
                 "highlights": [
                     "Contributed from scratch to the development of the MVP for the Soxial Leads prospect management platform.",
@@ -1002,18 +1002,18 @@
                 "period": "Abr 2024 - Dic 2025",
                 "role": "Desarrollador Full-Stack Jr",
                 "title": "Justo Pago",
-                "description": "Desarrollo de nuevas funcionalidades y optimización de consultas en la base de datos para asegurar sincronización en tiempo real con SQL Server y TypeORM. Implementación de una función de chat interactivo integrando React, Tailwind, NestJS y MongoDB. Diseño de sistemas de notificaciones automatizadas por WhatsApp y email bajo una arquitectura guiada por eventos (pub/sub). Creación y actualización de interfaces de usuario dinámicas empleando Next.js, React y NestJS.",
+                "description": "Implementé mejoras y nuevas funcionalidades en la base de datos y la lógica de negocio utilizando Firebase Functions y Firestore.\n\nDesarrollé un sistema de chat en tiempo real utilizando React, Ant Design, Express y Firebase Realtime Database.\n\nDiseñé, desarrollé y mantuve interfaces web y funcionalidades de la aplicación utilizando Vite, React y Redux.\n\nLideré la integración de servicios externos y APIs de terceros, incluyendo ZapSign, Twilio y Gemini API.",
                 "highlights": [
-                    "Desarrollo de nuevas funcionalidades y optimización de consultas en la base de datos para asegurar sincronización en tiempo real con SQL Server y TypeORM.",
-                    "Implementación de una función de chat interactivo integrando React, Tailwind, NestJS y MongoDB.",
-                    "Diseño de sistemas de notificaciones automatizadas por WhatsApp y email bajo una arquitectura guiada por eventos (pub/sub).",
-                    "Creación y actualización de interfaces de usuario dinámicas empleando Next.js, React y NestJS."
+                    "Implementé mejoras y nuevas funcionalidades en la base de datos y la lógica de negocio utilizando Firebase Functions y Firestore.",
+                    "Desarrollé un sistema de chat en tiempo real utilizando React, Ant Design, Express y Firebase Realtime Database.",
+                    "Diseñé, desarrollé y mantuve interfaces web y funcionalidades de la aplicación utilizando Vite, React y Redux.",
+                    "Lideré la integración de servicios externos y APIs de terceros, incluyendo ZapSign, Twilio y Gemini API."
                 ]
             },
             {
                 "period": "Ago 2023 - Nov 2023",
                 "role": "Desarrollador Full-Stack",
-                "title": "Xirectds",
+                "title": " Xirectds (Freelance)",
                 "description": "Contribución desde cero en la creación del Producto Mínimo Viable (MVP) para la plataforma web de gestión de prospectos Soxial Leads. Desarrollo y maquetación de la interfaz de usuario utilizando Next.js, React y NestJS. Modificaciones a nivel de base de datos e interacciones mediante TypeORM y SQL Server.",
                 "highlights": [
                     "Contribución desde cero en la creación del Producto Mínimo Viable (MVP) para la plataforma web de gestión de prospectos Soxial Leads.",
