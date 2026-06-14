@@ -19,53 +19,10 @@
         },
         "projectsSection": {
             "kicker": "DEPLOYMENT_HISTORY",
-            "title": "SELECTED_PROJECTS",
+            "title": "PERSONAL_PROJECTS",
             "description": ""
         },
         "projects": [
-            {
-                "code": "0x01 // LSC_TRANSLATOR",
-                "title": " Sign Language translator",
-                "description": "Colombian Sign Language (LSC) translator that uses computer vision and deep learning (LSTM models) to translate vowels, numbers, and gestures in real time through the webcam.",
-                "tags": [
-                    "React",
-                    "MUI",
-                    "Flask",
-                    "TensorFlow",
-                    "MediaPipe",
-                    "OpenCV",
-                    "Python"
-                ],
-                "actions": [
-                    {
-                        "label": "SOURCE_CODE",
-                        "icon": "code",
-                        "variant": "ghost"
-                    }
-                ],
-                "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-1-snl_translator.png"
-            },
-            {
-                "code": "0x02 // Smart_App",
-                "title": "Weather Assistant",
-                "description": "Intelligent weather assistant for Cali, Colombia with voice recognition, 7-day history, weather-based suggestions, and automatic notifications.",
-                "tags": [
-                    "React",
-                    "Vite",
-                    "Material Tailwind",
-                    "FastAPI",
-                    "Whisper (STT)",
-                    "WeatherAPI"
-                ],
-                "actions": [
-                    {
-                        "label": "SOURCE_CODE",
-                        "icon": "code",
-                        "variant": "ghost"
-                    }
-                ],
-                "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-2-weather.jpeg"
-            },
             {
                 "code": "0x03 // WHATSAPP_web",
                 "title": "WhatsApp web by API",
@@ -107,95 +64,6 @@
                 "image": "https://raw.githubusercontent.com/jenestiven/app-gestion-de-obra/refs/heads/final_details/assets/preview.png"
             },
             {
-                "code": "0x05 // MANUAL_APP",
-                "title": "Duolingo Manual",
-                "description": "Duolingo user manual in Spanish. It contains detailed tutorials about introduction, getting started guide, interface, lessons, leagues, streaks, shop, challenges, and more.",
-                "tags": [
-                    "React",
-                    "Vite",
-                    "Tailwind CSS",
-                    "React Router"
-                ],
-                "actions": [
-                    {
-                        "label": "LIVE_DEMO",
-                        "icon": "terminal",
-                        "variant": "primary"
-                    },
-                    {
-                        "label": "SOURCE_CODE",
-                        "icon": "code",
-                        "variant": "ghost"
-                    }
-                ],
-                "image": "https://raw.githubusercontent.com/Iron-mind/manual-duolingo/refs/heads/main/manual-web/src/assets/preview.png"
-            },
-            {
-                "code": "0x06 // Appointment_system",
-                "title": "WufWuf",
-                "description": "Appointment system for animal adoption with microservices. It manages appointments, catalogs animals with photos, and ensures secure authentication. It uses an API Gateway with a reverse proxy.",
-                "tags": [
-                    "Node.js",
-                    "Express",
-                    "Docker",
-                    "http-proxy-middleware"
-                ],
-                "actions": [
-                    {
-                        "label": "SOURCE_CODE",
-                        "icon": "code",
-                        "variant": "ghost"
-                    }
-                ],
-                "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/wufwuf.png"
-            },
-            {
-                "code": "0x07 // MEDICAL_IMG",
-                "title": "Medical Image Processor",
-                "description": "Medical image processor (NIfTI format). Tools: segmentation (region growing), k-means, thresholding, histogram equalization, z-score transformation, edge detection, and image registration.",
-                "tags": [
-                    "React",
-                    "Vite",
-                    "Tailwind",
-                    "Flask",
-                    "NiBabel",
-                    "SimpleITK",
-                    "SciPy",
-                    "Matplotlib"
-                ],
-                "actions": [
-                    {
-                        "label": "SOURCE_CODE",
-                        "icon": "code",
-                        "variant": "ghost"
-                    }
-                ],
-                "image": "https://raw.githubusercontent.com/Iron-mind/M-image-processor/refs/heads/main/preview.png"
-            },
-            {
-                "code": "0x08 // CHATBOT",
-                "title": "Colombian conflict Chatbot",
-                "description": "RAG chatbot about the Colombian armed conflict using JEP reports. Fine-tuned models (Llama-3.2, Mistral) published on HuggingFace. Custom dataset on HuggingFace.",
-                "tags": [
-                    "Python",
-                    "Jupyter",
-                    "Llama",
-                    "Mistral",
-                    "LangChain",
-                    "FAISS",
-                    "Gradio",
-                    "HuggingFace"
-                ],
-                "actions": [
-                    {
-                        "label": "SOURCE_CODE",
-                        "icon": "code",
-                        "variant": "ghost"
-                    }
-                ],
-                "image": "https://raw.githubusercontent.com/Iron-mind/colombian-conflict-chatbot/refs/heads/main/docs/schema.png"
-            },
-            {
                 "code": "0x09 // VISUAL_NOVEL",
                 "title": "Virtual Odyssey",
                 "description": "3D visual novel \"Virtual Odyssey\". In the year 2055, Xander must save his grandmother by entering the world of hacking and the Virtual World. Includes 3D characters, interactive scenarios, and a dialogue system.",
@@ -221,6 +89,163 @@
                 "image": "https://proyecto-integrador-liard.vercel.app/images/gameplay1.png"
             },
             {
+                "code": "0x07 // MEDICAL_IMG",
+                "title": "Medical Image Processor",
+                "description": "Medical image processor (NIfTI format). Tools: segmentation (region growing), k-means, thresholding, histogram equalization, z-score transformation, edge detection, and image registration.",
+                "tags": [
+                    "React",
+                    "Vite",
+                    "Tailwind",
+                    "Flask",
+                    "NiBabel",
+                    "SimpleITK",
+                    "SciPy",
+                    "Matplotlib"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/M-image-processor/refs/heads/main/preview.png"
+            },
+            {
+                "code": "0x0B // PORTFOLIO_3D",
+                "title": "Personal Web 3D",
+                "description": "Personal 3D portfolio of Juan David Tovar (Iron-mind), deployed on Vercel. Displays projects and skills with 3D visual effects.",
+                "tags": [
+                  "React",
+                  "JavaScript",
+                  "CSS",
+                  "React Three Fiber",
+                  "Three.js"
+                ],
+                "actions": [
+                  {
+                    "label": "LIVE_DEMO",
+                    "icon": "terminal",
+                    "variant": "primary"
+                  },
+                  {
+                    "label": "SOURCE_CODE",
+                    "icon": "code",
+                    "variant": "ghost"
+                  }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/juanda-portfolio-3d/refs/heads/main/preview.png"
+              },
+              {
+                "code": "0x08 // CHATBOT",
+                "title": "Colombian conflict Chatbot",
+                "description": "RAG chatbot about the Colombian armed conflict using JEP reports. Fine-tuned models (Llama-3.2, Mistral) published on HuggingFace. Custom dataset on HuggingFace.",
+                "tags": [
+                    "Python",
+                    "Jupyter",
+                    "Llama",
+                    "Mistral",
+                    "LangChain",
+                    "FAISS",
+                    "Gradio",
+                    "HuggingFace"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/colombian-conflict-chatbot/refs/heads/main/docs/schema.png"
+            },
+            {
+                "code": "0x01 // LSC_TRANSLATOR",
+                "title": " Sign Language translator",
+                "description": "Colombian Sign Language (LSC) translator that uses computer vision and deep learning (LSTM models) to translate vowels, numbers, and gestures in real time through the webcam.",
+                "tags": [
+                    "React",
+                    "MUI",
+                    "Flask",
+                    "TensorFlow",
+                    "MediaPipe",
+                    "OpenCV",
+                    "Python"
+                ],
+                "actions": [
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                      }
+                    ],
+                    "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-1-snl_translator.png"
+                  },
+                  {
+                "code": "0x02 // Smart_App",
+                "title": "Weather Assistant",
+                "description": "Intelligent weather assistant for Cali, Colombia with voice recognition, 7-day history, weather-based suggestions, and automatic notifications.",
+                "tags": [
+                  "React",
+                  "Vite",
+                  "Material Tailwind",
+                  "FastAPI",
+                  "Whisper (STT)",
+                  "WeatherAPI"
+                ],
+                "actions": [
+                  {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-2-weather.jpeg"
+            },
+            {
+                "code": "0x05 // MANUAL_APP",
+                "title": "Duolingo Manual",
+                "description": "Duolingo user manual in Spanish. It contains detailed tutorials about introduction, getting started guide, interface, lessons, leagues, streaks, shop, challenges, and more.",
+                "tags": [
+                    "React",
+                    "Vite",
+                    "Tailwind CSS",
+                    "React Router"
+                ],
+                "actions": [
+                    {
+                        "label": "LIVE_DEMO",
+                        "icon": "terminal",
+                        "variant": "primary"
+                    },
+                    {
+                        "label": "SOURCE_CODE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/manual-duolingo/refs/heads/main/manual-web/src/assets/preview.png"
+              },
+              {
+                "code": "0x06 // Appointment_system",
+                "title": "WufWuf",
+                "description": "Appointment system for animal adoption with microservices. It manages appointments, catalogs animals with photos, and ensures secure authentication. It uses an API Gateway with a reverse proxy.",
+                "tags": [
+                  "Node.js",
+                  "Express",
+                  "Docker",
+                  "http-proxy-middleware"
+                ],
+                "actions": [
+                  {
+                    "label": "SOURCE_CODE",
+                    "icon": "code",
+                    "variant": "ghost"
+                  }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/wufwuf.png"
+              },
+              {
                 "code": "0x0A // TRAVELING",
                 "title": "Five to Fly",
                 "description": "Travel recommendation app. Users answer a questionnaire and the system calculates weights to recommend personalized tourist destinations. Includes registration, login, and result rating.",
@@ -245,31 +270,6 @@
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/five-to-fly/refs/heads/main/five-to-fly.png"
-            },
-            {
-                "code": "0x0B // PORTFOLIO_3D",
-                "title": "Personal Web 3D",
-                "description": "Personal 3D portfolio of Juan David Tovar (Iron-mind), deployed on Vercel. Displays projects and skills with 3D visual effects.",
-                "tags": [
-                    "React",
-                    "JavaScript",
-                    "CSS",
-                    "React Three Fiber",
-                    "Three.js"
-                ],
-                "actions": [
-                    {
-                        "label": "LIVE_DEMO",
-                        "icon": "terminal",
-                        "variant": "primary"
-                    },
-                    {
-                        "label": "SOURCE_CODE",
-                        "icon": "code",
-                        "variant": "ghost"
-                    }
-                ],
-                "image": "https://raw.githubusercontent.com/Iron-mind/juanda-portfolio-3d/refs/heads/main/preview.png"
             },
             {
                 "code": "0x0C // car_dealership",
@@ -558,49 +558,6 @@
         },
         "projects": [
             {
-                "code": "0x01 // LSC_TRANSLATOR",
-                "title": "Traductor de Lengua de Señas Colombiana",
-                "description": "Traductor de Lengua de Señas Colombiana (LSC) que utiliza visión por computadora y deep learning (modelos LSTM) para traducir vocales, números y gestos en tiempo real a través de la cámara web.",
-                "tags": [
-                    "React",
-                    "MUI",
-                    "Flask",
-                    "TensorFlow",
-                    "MediaPipe",
-                    "OpenCV",
-                    "Python"
-                ],
-                "actions": [
-                    {
-                        "label": "CODIGO_FUENTE",
-                        "icon": "code",
-                        "variant": "ghost"
-                    }
-                ],
-                "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-1-snl_translator.png"
-            },
-            {
-                "code": "0x02 // Smart_APP",
-                "title": "Asistente del clima",
-                "description": "Asistente meteorológico inteligente para Cali, Colombia con reconocimiento de voz, historial de 7 días, sugerencias basadas en clima y notificaciones automáticas.",
-                "tags": [
-                    "React",
-                    "Vite",
-                    "Material Tailwind",
-                    "FastAPI",
-                    "Whisper (STT)",
-                    "WeatherAPI"
-                ],
-                "actions": [
-                    {
-                        "label": "CODIGO_FUENTE",
-                        "icon": "code",
-                        "variant": "ghost"
-                    }
-                ],
-                "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-2-weather.jpeg"
-            },
-            {
                 "code": "0x03 // WHATSAPP_WEB",
                 "title": "WhatsApp web API",
                 "description": "API REST para enviar mensajes de WhatsApp mediante un sistema de colas con Redis, evitando bloqueos por envío masivo. Incluye autenticación QR, reportes y procesamiento automático.",
@@ -641,14 +598,15 @@
                 "image": "https://raw.githubusercontent.com/jenestiven/app-gestion-de-obra/refs/heads/final_details/assets/preview.png"
             },
             {
-                "code": "0x05 // MANUAL_APP",
-                "title": "Manual de Duolingo",
-                "description": "Manual de usuario en español de Duolingo. Contiene tutoriales detallados sobre introducción, guía de inicio, interfaz, lecciones, ligas, rachas, tienda, desafíos y más.",
+                "code": "0x09 // VISUAL_NOVEL",
+                "title": "Virtual Odyssey",
+                "description": "Novela visual 3D \"Virtual Odyssey\". En el año 2055, Xander debe salvar a su abuela adentrándose en el mundo del hacking y el Mundo Virtual. Incluye personajes 3D, escenarios interactivos y sistema de diálogos.",
                 "tags": [
                     "React",
-                    "Vite",
-                    "Tailwind CSS",
-                    "React Router"
+                    "Three.js",
+                    "React Three Fiber",
+                    "@react-three/rapier",
+                    "Tailwind CSS"
                 ],
                 "actions": [
                     {
@@ -662,26 +620,7 @@
                         "variant": "ghost"
                     }
                 ],
-                "image": "https://raw.githubusercontent.com/Iron-mind/manual-duolingo/refs/heads/main/manual-web/src/assets/preview.png"
-            },
-            {
-                "code": "0x06 // Appointment_system",
-                "title": "WufWuf",
-                "description": "Sistema de citas para adopción de animales con microservicios. Gestiona citas, cataloga animales con fotos y garantiza autenticación segura. Utiliza un API Gateway con proxy inverso.",
-                "tags": [
-                    "Node.js",
-                    "Express",
-                    "Docker",
-                    "http-proxy-middleware"
-                ],
-                "actions": [
-                    {
-                        "label": "CODIGO_FUENTE",
-                        "icon": "code",
-                        "variant": "ghost"
-                    }
-                ],
-                "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/wufwuf.png"
+                "image": "https://proyecto-integrador-liard.vercel.app/images/gameplay1.png"
             },
             {
                 "code": "0x07 // MEDICAL_IMG",
@@ -707,6 +646,31 @@
                 "image": "https://raw.githubusercontent.com/Iron-mind/M-image-processor/refs/heads/main/preview.png"
             },
             {
+                "code": "0x0B // PORTFOLIO_3D",
+                "title": "Personal Web 3D",
+                "description": "Portafolio 3D personal de Juan David Tovar (Iron-mind), desplegado en Vercel. Muestra proyectos y habilidades con efectos visuales 3D.",
+                "tags": [
+                  "React",
+                  "JavaScript",
+                  "CSS",
+                  "React Three Fiber",
+                  "Three.js"
+                ],
+                "actions": [
+                  {
+                    "label": "DEMO",
+                    "icon": "terminal",
+                    "variant": "primary"
+                  },
+                  {
+                    "label": "CODIGO_FUENTE",
+                    "icon": "code",
+                    "variant": "ghost"
+                  }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/juanda-portfolio-3d/refs/heads/main/preview.png"
+              },
+              {
                 "code": "0x08 // CHATBOT",
                 "title": "Sistema question-answering sobre conflicto armado colombiano",
                 "description": "Chatbot RAG sobre el conflicto armado colombiano usando informes de la JEP. Modelos fine-tuneados (Llama-3.2, Mistral) publicados en HuggingFace. Dataset propio en HuggingFace.",
@@ -730,15 +694,57 @@
                 "image": "https://raw.githubusercontent.com/Iron-mind/colombian-conflict-chatbot/refs/heads/main/docs/schema.png"
             },
             {
-                "code": "0x09 // VISUAL_NOVEL",
-                "title": "Virtual Odyssey",
-                "description": "Novela visual 3D \"Virtual Odyssey\". En el año 2055, Xander debe salvar a su abuela adentrándose en el mundo del hacking y el Mundo Virtual. Incluye personajes 3D, escenarios interactivos y sistema de diálogos.",
+                "code": "0x01 // LSC_TRANSLATOR",
+                "title": "Traductor de Lengua de Señas Colombiana",
+                "description": "Traductor de Lengua de Señas Colombiana (LSC) que utiliza visión por computadora y deep learning (modelos LSTM) para traducir vocales, números y gestos en tiempo real a través de la cámara web.",
                 "tags": [
                     "React",
-                    "Three.js",
-                    "React Three Fiber",
-                    "@react-three/rapier",
-                    "Tailwind CSS"
+                    "MUI",
+                    "Flask",
+                    "TensorFlow",
+                    "MediaPipe",
+                    "OpenCV",
+                    "Python"
+                ],
+                "actions": [
+                    {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                      }
+                    ],
+                    "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-1-snl_translator.png"
+                  },
+                  {
+                "code": "0x02 // Smart_APP",
+                "title": "Asistente del clima",
+                "description": "Asistente meteorológico inteligente para Cali, Colombia con reconocimiento de voz, historial de 7 días, sugerencias basadas en clima y notificaciones automáticas.",
+                "tags": [
+                  "React",
+                  "Vite",
+                  "Material Tailwind",
+                  "FastAPI",
+                  "Whisper (STT)",
+                  "WeatherAPI"
+                ],
+                "actions": [
+                  {
+                        "label": "CODIGO_FUENTE",
+                        "icon": "code",
+                        "variant": "ghost"
+                    }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-2-weather.jpeg"
+            },
+            {
+                "code": "0x05 // MANUAL_APP",
+                "title": "Manual de Duolingo",
+                "description": "Manual de usuario en español de Duolingo. Contiene tutoriales detallados sobre introducción, guía de inicio, interfaz, lecciones, ligas, rachas, tienda, desafíos y más.",
+                "tags": [
+                    "React",
+                    "Vite",
+                    "Tailwind CSS",
+                    "React Router"
                 ],
                 "actions": [
                     {
@@ -752,7 +758,26 @@
                         "variant": "ghost"
                     }
                 ],
-                "image": "https://proyecto-integrador-liard.vercel.app/images/gameplay1.png"
+                "image": "https://raw.githubusercontent.com/Iron-mind/manual-duolingo/refs/heads/main/manual-web/src/assets/preview.png"
+              },
+              {
+                "code": "0x06 // Appointment_system",
+                "title": "WufWuf",
+                "description": "Sistema de citas para adopción de animales con microservicios. Gestiona citas, cataloga animales con fotos y garantiza autenticación segura. Utiliza un API Gateway con proxy inverso.",
+                "tags": [
+                  "Node.js",
+                  "Express",
+                  "Docker",
+                  "http-proxy-middleware"
+                ],
+                "actions": [
+                  {
+                    "label": "CODIGO_FUENTE",
+                    "icon": "code",
+                    "variant": "ghost"
+                  }
+                ],
+                "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/wufwuf.png"
             },
             {
                 "code": "0x0A // Viajes",
@@ -779,31 +804,6 @@
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/five-to-fly/refs/heads/main/five-to-fly.png"
-            },
-            {
-                "code": "0x0B // PORTFOLIO_3D",
-                "title": "Personal Web 3D",
-                "description": "Portafolio 3D personal de Juan David Tovar (Iron-mind), desplegado en Vercel. Muestra proyectos y habilidades con efectos visuales 3D.",
-                "tags": [
-                    "React",
-                    "JavaScript",
-                    "CSS",
-                    "React Three Fiber",
-                    "Three.js"
-                ],
-                "actions": [
-                    {
-                        "label": "DEMO",
-                        "icon": "terminal",
-                        "variant": "primary"
-                    },
-                    {
-                        "label": "CODIGO_FUENTE",
-                        "icon": "code",
-                        "variant": "ghost"
-                    }
-                ],
-                "image": "https://raw.githubusercontent.com/Iron-mind/juanda-portfolio-3d/refs/heads/main/preview.png"
             },
             {
                 "code": "0x0C // Concesionario_de_autos",
