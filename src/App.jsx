@@ -9,6 +9,7 @@ function App() {
   const canvasRef = useRef(null)
   const [activeView, setActiveView] = useState('hero')
   const [language, setLanguage] = useState('en')
+  const [menuOpen, setMenuOpen] = useState(false)
 
   const locale = content[language]
 
@@ -79,6 +80,11 @@ function App() {
   }, [])
 
   const handleViewChange = (view) => () => setActiveView(view)
+  const toggleMenu = () => setMenuOpen((prev) => !prev)
+  const handleNavClick = (view) => () => {
+    setActiveView(view)
+    setMenuOpen(false)
+  }
   const toggleLanguage = () =>
     setLanguage((currentLanguage) => (currentLanguage === 'en' ? 'es' : 'en'))
 
@@ -307,35 +313,46 @@ function App() {
       <canvas className="matrix-canvas" ref={canvasRef} aria-hidden="true" />
 
       <header className="site-header">
-        <nav className="nav-bar">
+        <nav className={`nav-bar ${menuOpen ? 'menu-open' : ''}`}>
           <div className="brand">{"FULLSTACK "}</div>
+          <button
+            className="hamburger"
+            type="button"
+            onClick={toggleMenu}
+            aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+            aria-expanded={menuOpen}
+          >
+            <span />
+            <span />
+            <span />
+          </button>
           <div className="nav-actions">
             <div className="nav-links">
               <button
                 className={activeView === 'hero' ? 'active' : ''}
                 type="button"
-                onClick={handleViewChange('hero')}
+                onClick={handleNavClick('hero')}
               >
                 {locale.nav.hero}
               </button>
               <button
                 className={activeView === 'projects' ? 'active' : ''}
                 type="button"
-                onClick={handleViewChange('projects')}
+                onClick={handleNavClick('projects')}
               >
                 {locale.nav.projects}
               </button>
               <button
                 className={activeView === 'profile' ? 'active' : ''}
                 type="button"
-                onClick={handleViewChange('profile')}
+                onClick={handleNavClick('profile')}
               >
                 {locale.nav.profile}
               </button>
               <button
                 className={activeView === 'contact' ? 'active' : ''}
                 type="button"
-                onClick={handleViewChange('contact')}
+                onClick={handleNavClick('contact')}
               >
                 {locale.nav.contact}
               </button>
