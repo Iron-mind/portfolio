@@ -34,6 +34,8 @@ function App() {
     let columns = 0
     let rainDrops = []
     let animationFrame = 0
+    let frameTick = 0
+    const MOVE_INTERVAL = 2
 
     const resize = () => {
       width = canvas.width = window.innerWidth
@@ -47,15 +49,20 @@ function App() {
       ctx.fillRect(0, 0, width, height)
       ctx.font = `${fontSize}px "JetBrains Mono", monospace`
 
+      frameTick++
+      const moveDrops = frameTick % MOVE_INTERVAL === 0
+
       for (let i = 0; i < rainDrops.length; i += 1) {
         const text = alphabet.charAt(Math.floor(Math.random() * alphabet.length))
         ctx.fillStyle = colors[Math.floor(Math.random() * colors.length)]
         ctx.fillText(text, i * fontSize, rainDrops[i] * fontSize)
 
-        if (rainDrops[i] * fontSize > height && Math.random() > 0.975) {
-          rainDrops[i] = 0
+        if (moveDrops) {
+          if (rainDrops[i] * fontSize > height && Math.random() > 0.975) {
+            rainDrops[i] = 0
+          }
+          rainDrops[i] += 1
         }
-        rainDrops[i] += 1
       }
 
       animationFrame = window.requestAnimationFrame(draw)
