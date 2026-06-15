@@ -501,6 +501,7 @@
         ],
         "contactSection": {
             "aboutTitle": "CONTACT_ME",
+            "aboutDescription": "Have a project in mind or looking for a Full-Stack Developer? I'd love to hear from you. Drop me a line and let's build something amazing together.",
             "github": "GITHUB",
             "linkedin": "LINKEDIN",
             "cv": "CV_ARCHIVE",
@@ -1033,6 +1034,7 @@
         ],
         "contactSection": {
             "aboutTitle": "Redes",
+            "aboutDescription": "¿Tienes un proyecto en mente o buscas un desarrollador Full-Stack? Me encantaría saber de ti. Escríbeme y creemos algo increíble juntos.",
             "github": "GITHUB",
             "linkedin": "LINKEDIN",
             "cv": "CV_ARCHIVE",

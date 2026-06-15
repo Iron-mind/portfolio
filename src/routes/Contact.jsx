@@ -12,6 +12,7 @@ export default function Contact() {
             <span className="material-symbols-outlined">terminal</span>
             <h2>{locale.contactSection.aboutTitle}</h2>
           </div>
+          <p>{locale.contactSection.aboutDescription}</p>
           <div className={styles.aboutActions}>
             <a className={styles.ctaGhost} href="#">
               <span className="material-symbols-outlined">code</span>
