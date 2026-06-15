@@ -424,7 +424,7 @@
         ],
         "profileSection": {
             "title": "PROFESSIONAL EXPERIENCE",
-            "description": "Full Stack Developer focused on transforming business requirements into scalable digital products. Experienced in designing and developing end-to-end solutions using React, NestJS, SQL databases, and modern cloud-based architectures.",
+            "description": "Full Stack Developer with 3 years of experience, specialized in building and optimizing web applications using technologies such as React, Node.js, Express, Sequelize, PostgreSQL, and Git. Experienced applying agile methodologies like SCRUM to deliver efficient and high-quality solutions.\n\nSystems Engineer with a strong focus on web development, a path chosen from my academic background. Throughout this trajectory, I have worked on diverse projects that have strengthened my technical profile and provided me with practical experience with modern technologies such as Vite, Redis, and React.",
             "coreCompetencies": "CORE COMPETENCIES",
             "executionHistory": "PROFESSIONAL HISTORY"
         },
@@ -500,24 +500,22 @@
             }
         ],
         "contactSection": {
-            "aboutTitle": "ABOUT_ME",
-            "aboutP1": "I am a Full Stack Developer with 3 years of experience, specialized in building and optimizing web applications using technologies such as React, Node.js, Express, Sequelize, PostgreSQL, and Git. I have experience applying agile methodologies like SCRUM to deliver efficient and high-quality solutions.",
-            "aboutP2": "I am a Systems Engineer with a strong focus on web development, a path I chose from my academic background. Throughout this trajectory, I have worked on diverse projects that have strengthened my technical profile and provided me with practical experience with modern technologies such as Vite, Redis, and React.",
+            "aboutTitle": "CONTACT_ME",
             "github": "GITHUB",
             "linkedin": "LINKEDIN",
             "cv": "CV_ARCHIVE",
             "techStack": "TECH_STACK",
             "experience": "EXPERIENCE",
             "role": "FULL_STACK",
-            "years": "12_YEARS",
+            
             "contactTitle": "CONTACT",
-            "userId": "USER_ID",
+            "userId": "Name",
             "namePlaceholder": "Enter your name...",
-            "accessPoint": "ACCESS_POINT",
+            "accessPoint": "email",
             "emailPlaceholder": "your@email.com",
-            "dataPayload": "DATA_PAYLOAD",
+            "dataPayload": "Message",
             "messagePlaceholder": "Write your message here...",
-            "send": "EXECUTE_TRANSMISSION"
+            "send": "Submit"
         },
         "heroTicker": [
             "REACT.JS",
@@ -958,7 +956,7 @@
         ],
         "profileSection": {
             "title": "EXPERIENCIA PROFESIONAL",
-            "description": "Desarrollador Full Stack enfocado en convertir necesidades de negocio en productos digitales escalables. Experiencia en el diseño y desarrollo de soluciones de extremo a extremo utilizando React, NestJS, bases de datos SQL y arquitecturas modernas en la nube.",
+            "description": "Desarrollador Full Stack con 3 años de experiencia, especializado en la construcción y optimización de aplicaciones web utilizando tecnologías como React, Node.js, Express, Sequelize, PostgreSQL y Git. Con experiencia en la aplicación de metodologías ágiles como SCRUM para entregar soluciones eficientes y de alta calidad.\n\nIngeniero de Sistemas con un fuerte enfoque en el desarrollo web, un camino elegido desde mi formación académica. A lo largo de esta trayectoria, he trabajado en diversos proyectos que han fortalecido mi perfil técnico y me han brindado experiencia práctica con tecnologías modernas como Vite, Redis y React.",
             "coreCompetencies": "COMPETENCIAS CLAVE",
             "executionHistory": "HISTORIAL PROFESIONAL"
         },
@@ -1034,9 +1032,7 @@
             }
         ],
         "contactSection": {
-            "aboutTitle": "SOBRE_MI",
-            "aboutP1": "Soy Desarrollador Full Stack con 3 años de experiencia, especializado en la construcción y optimización de aplicaciones web utilizando tecnologías como React, Node.js, Express, Sequelize, PostgreSQL y Git. Cuento con experiencia en la aplicación de metodologías ágiles como SCRUM para entregar soluciones eficientes y de alta calidad.",
-            "aboutP2": "Soy Ingeniero de Sistemas con un fuerte enfoque en el desarrollo web, un camino que elegí desde mi formación académica. A lo largo de esta trayectoria, he trabajado en diversos proyectos que han fortalecido mi perfil técnico y me han brindado experiencia práctica con tecnologías modernas como Vite, Redis y React.",
+            "aboutTitle": "Redes",
             "github": "GITHUB",
             "linkedin": "LINKEDIN",
             "cv": "CV_ARCHIVE",
@@ -1044,13 +1040,13 @@
             "experience": "EXPERIENCE",
             "role": "FULL_STACK",
             "contactTitle": "CONTACTO",
-            "userId": "USER_ID",
+            "userId": "Nombre",
             "namePlaceholder": "Ingresa tu nombre...",
-            "accessPoint": "ACCESS_POINT",
+            "accessPoint": "Correo",
             "emailPlaceholder": "tu@email.com",
-            "dataPayload": "DATA_PAYLOAD",
+            "dataPayload": "Mensaje",
             "messagePlaceholder": "Escribe tu mensaje aqui...",
-            "send": "EXECUTE_TRANSMISSION"
+            "send": "Enviar"
         },
         "heroTicker": [
             "REACT.JS",

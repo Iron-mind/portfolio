@@ -101,6 +101,22 @@
   color: var(--primary-bright);
 }
 
+.emailLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--primary-bright);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78rem;
+  text-decoration: none;
+  margin-top: -0.5rem;
+  transition: color 0.3s ease;
+}
+
+.emailLink:hover {
+  color: #d8b4fe;
+}
+
 .metrics {
   display: flex;
   flex-wrap: wrap;

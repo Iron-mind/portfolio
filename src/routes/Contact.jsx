@@ -12,8 +12,6 @@ export default function Contact() {
             <span className="material-symbols-outlined">terminal</span>
             <h2>{locale.contactSection.aboutTitle}</h2>
           </div>
-          <p>{locale.contactSection.aboutP1.replace('3', yearsOfExperience)}</p>
-          <p>{locale.contactSection.aboutP2}</p>
           <div className={styles.aboutActions}>
             <a className={styles.ctaGhost} href="#">
               <span className="material-symbols-outlined">code</span>
@@ -28,6 +26,10 @@ export default function Contact() {
               {locale.contactSection.cv}
             </a>
           </div>
+          <a className={styles.emailLink} href="mailto:davidtovar.dev@gmail.com">
+            <span className="material-symbols-outlined">mail</span>
+            davidtovar.dev@gmail.com
+          </a>
           <div className={styles.metrics}>
             <div>
               <span>// {locale.contactSection.techStack}</span>
@@ -51,7 +53,7 @@ export default function Contact() {
               <input placeholder={locale.contactSection.namePlaceholder} type="text" />
             </label>
             <label>
-              <span>ACCESS_POINT</span>
+              <span>{locale.contactSection.accessPoint}</span>
               <input placeholder={locale.contactSection.emailPlaceholder} type="email" />
             </label>
             <label>
