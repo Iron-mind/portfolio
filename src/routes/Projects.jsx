@@ -32,18 +32,33 @@ export default function Projects() {
                 ))}
               </div>
               <div className={styles.projectActions}>
-                {project.actions.map((action) => (
-                  <button
-                    key={action.label}
-                    className={
-                      action.variant === 'ghost' ? styles.ctaGhost : styles.ctaFill
-                    }
-                    type="button"
-                  >
-                    <span className="material-symbols-outlined">{action.icon}</span>
-                    {action.label}
-                  </button>
-                ))}
+                {project.actions.map((action) =>
+                  action.url ? (
+                    <a
+                      key={action.label}
+                      href={action.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={
+                        action.variant === 'ghost' ? styles.ctaGhost : styles.ctaFill
+                      }
+                    >
+                      <span className="material-symbols-outlined">{action.icon}</span>
+                      {action.label}
+                    </a>
+                  ) : (
+                    <button
+                      key={action.label}
+                      className={
+                        action.variant === 'ghost' ? styles.ctaGhost : styles.ctaFill
+                      }
+                      type="button"
+                    >
+                      <span className="material-symbols-outlined">{action.icon}</span>
+                      {action.label}
+                    </button>
+                  )
+                )}
               </div>
             </div>
           </article>

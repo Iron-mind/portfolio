@@ -37,7 +37,8 @@
                     {
                         "label": "SOURCE_CODE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/whatsapp-web-api"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/whatsapp-web-api/refs/heads/main/src/whatsapp-api-server.png"
@@ -58,7 +59,8 @@
                     {
                         "label": "SOURCE_CODE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/jenestiven/app-gestion-de-obra"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/jenestiven/app-gestion-de-obra/refs/heads/final_details/assets/preview.png"
@@ -78,12 +80,14 @@
                     {
                         "label": "LIVE_DEMO",
                         "icon": "terminal",
-                        "variant": "primary"
+                        "variant": "primary",
+                        "url": "https://proyecto-integrador-liard.vercel.app/#contenido"
                     },
                     {
                         "label": "SOURCE_CODE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Anezeres/ProyectoIntegrador"
                     }
                 ],
                 "image": "https://proyecto-integrador-liard.vercel.app/images/gameplay1.png"
@@ -106,7 +110,8 @@
                     {
                         "label": "SOURCE_CODE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/M-image-processor"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/M-image-processor/refs/heads/main/preview.png"
@@ -126,12 +131,14 @@
                   {
                     "label": "LIVE_DEMO",
                     "icon": "terminal",
-                    "variant": "primary"
+                    "variant": "primary",
+                    "url": "https://juanda-portfolio-3d.vercel.app/"
                   },
                   {
                     "label": "SOURCE_CODE",
                     "icon": "code",
-                    "variant": "ghost"
+                    "variant": "ghost",
+                    "url": "https://github.com/Iron-mind/juanda-portfolio-3d"
                   }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/juanda-portfolio-3d/refs/heads/main/preview.png"
@@ -154,7 +161,8 @@
                     {
                         "label": "SOURCE_CODE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/colombian-conflict-chatbot"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/colombian-conflict-chatbot/refs/heads/main/docs/schema.png"
@@ -176,7 +184,8 @@
                     {
                         "label": "SOURCE_CODE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/danielcaicedo98/colombian_snl_traductor"
                       }
                     ],
                     "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-1-snl_translator.png"
@@ -194,7 +203,8 @@
                     {
                         "label": "SOURCE_CODE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/danielcaicedo98/ProyectoIA"
                     }
                 ],
                 "image": "https://github.com/danielcaicedo98/ProyectoIA/assets/61769073/6ebb662e-1541-4fac-afe2-9009ed8d5e63"
@@ -211,7 +221,8 @@
                     {
                         "label": "SOURCE_CODE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Anezeres/ProyectoIA2"
                     }
                 ],
                 "image": "https://github.com/user-attachments/assets/acd1c35c-c70f-4bfe-9129-32f53390dadc"
@@ -232,7 +243,8 @@
                   {
                         "label": "SOURCE_CODE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/danielcaicedo98/WeatherAssistant"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-2-weather.jpeg"
@@ -251,12 +263,14 @@
                     {
                         "label": "LIVE_DEMO",
                         "icon": "terminal",
-                        "variant": "primary"
+                        "variant": "primary",
+                        "url": "https://duolingo-manual.web.app/"
                     },
                     {
                         "label": "SOURCE_CODE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/manual-duolingo"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/manual-duolingo/refs/heads/main/manual-web/src/assets/preview.png"
@@ -275,7 +289,8 @@
                   {
                     "label": "SOURCE_CODE",
                     "icon": "code",
-                    "variant": "ghost"
+                    "variant": "ghost",
+                    "url": "https://github.com/Jpcqaa2/WufWuf"
                   }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/wufwuf.png"
@@ -296,12 +311,14 @@
                     {
                         "label": "LIVE_DEMO",
                         "icon": "terminal",
-                        "variant": "primary"
+                        "variant": "primary",
+                        "url": "https://five-to-fly.netlify.app/"
                     },
                     {
                         "label": "SOURCE_CODE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/five-to-fly"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/five-to-fly/refs/heads/main/five-to-fly.png"
@@ -321,7 +338,8 @@
                     {
                         "label": "SOURCE_CODE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/renault_app"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/renault_app/refs/heads/main/readme_imgs/allcars.png"
@@ -341,7 +359,8 @@
                     {
                         "label": "SOURCE_CODE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/PI-videogames"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/PI-videogames/refs/heads/main/home.png"
@@ -360,7 +379,8 @@
                     {
                         "label": "SOURCE_CODE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/MarvelApp"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/MarvelApp/refs/heads/main/imgs/abomb.png"
@@ -380,7 +400,8 @@
                     {
                         "label": "SOURCE_CODE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/NicoRob92/FrontEcommerce"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/NicoRob92/FrontEcommerce/refs/heads/dev/imgs/home.jpeg"
@@ -399,7 +420,8 @@
                     {
                         "label": "SOURCE_CODE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/Pacman_Juego-2.0"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/Pacman_Juego-2.0/refs/heads/master/pacman-preview.png"
@@ -416,7 +438,8 @@
                     {
                         "label": "SOURCE_CODE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/videojuego-cpp"
                     }
                 ],
                 "image": "https://user-images.githubusercontent.com/63685121/103682243-9aedf580-4f56-11eb-895a-2b249a7416bb.png"
@@ -574,7 +597,8 @@
                     {
                         "label": "CODIGO_FUENTE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/whatsapp-web-api"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/whatsapp-web-api/refs/heads/main/src/whatsapp-api-server.png"
@@ -595,7 +619,8 @@
                     {
                         "label": "CODIGO_FUENTE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/jenestiven/app-gestion-de-obra"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/jenestiven/app-gestion-de-obra/refs/heads/final_details/assets/preview.png"
@@ -615,12 +640,14 @@
                     {
                         "label": "DEMO",
                         "icon": "terminal",
-                        "variant": "primary"
+                        "variant": "primary",
+                        "url": "https://proyecto-integrador-liard.vercel.app/#contenido"
                     },
                     {
                         "label": "CODIGO_FUENTE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Anezeres/ProyectoIntegrador"
                     }
                 ],
                 "image": "https://proyecto-integrador-liard.vercel.app/images/gameplay1.png"
@@ -643,7 +670,8 @@
                     {
                         "label": "CODIGO_FUENTE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/M-image-processor"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/M-image-processor/refs/heads/main/preview.png"
@@ -663,12 +691,14 @@
                   {
                     "label": "DEMO",
                     "icon": "terminal",
-                    "variant": "primary"
+                    "variant": "primary",
+                    "url": "https://juanda-portfolio-3d.vercel.app/"
                   },
                   {
                     "label": "CODIGO_FUENTE",
                     "icon": "code",
-                    "variant": "ghost"
+                    "variant": "ghost",
+                    "url": "https://github.com/Iron-mind/juanda-portfolio-3d"
                   }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/juanda-portfolio-3d/refs/heads/main/preview.png"
@@ -691,7 +721,8 @@
                     {
                         "label": "CODIGO_FUENTE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/colombian-conflict-chatbot"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/colombian-conflict-chatbot/refs/heads/main/docs/schema.png"
@@ -713,7 +744,8 @@
                     {
                         "label": "CODIGO_FUENTE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/danielcaicedo98/colombian_snl_traductor"
                       }
                     ],
                     "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-1-snl_translator.png"
@@ -731,7 +763,8 @@
                     {
                         "label": "CODIGO_FUENTE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/danielcaicedo98/ProyectoIA"
                     }
                 ],
                 "image": "https://github.com/danielcaicedo98/ProyectoIA/assets/61769073/6ebb662e-1541-4fac-afe2-9009ed8d5e63"
@@ -748,7 +781,8 @@
                     {
                         "label": "CODIGO_FUENTE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Anezeres/ProyectoIA2"
                     }
                 ],
                 "image": "https://github.com/user-attachments/assets/acd1c35c-c70f-4bfe-9129-32f53390dadc"
@@ -769,7 +803,8 @@
                   {
                         "label": "CODIGO_FUENTE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/danielcaicedo98/WeatherAssistant"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/project-2-weather.jpeg"
@@ -788,12 +823,14 @@
                     {
                         "label": "DEMO",
                         "icon": "terminal",
-                        "variant": "primary"
+                        "variant": "primary",
+                        "url": "https://duolingo-manual.web.app/"
                     },
                     {
                         "label": "CODIGO_FUENTE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/manual-duolingo"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/manual-duolingo/refs/heads/main/manual-web/src/assets/preview.png"
@@ -812,7 +849,8 @@
                   {
                     "label": "CODIGO_FUENTE",
                     "icon": "code",
-                    "variant": "ghost"
+                    "variant": "ghost",
+                    "url": "https://github.com/Jpcqaa2/WufWuf"
                   }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/methodology/refs/heads/main/images/wufwuf.png"
@@ -833,12 +871,14 @@
                     {
                         "label": "DEMO",
                         "icon": "terminal",
-                        "variant": "primary"
+                        "variant": "primary",
+                        "url": "https://five-to-fly.netlify.app/"
                     },
                     {
                         "label": "CODIGO_FUENTE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/five-to-fly"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/five-to-fly/refs/heads/main/five-to-fly.png"
@@ -858,7 +898,8 @@
                     {
                         "label": "CODIGO_FUENTE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/renault_app"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/renault_app/refs/heads/main/readme_imgs/allcars.png"
@@ -878,7 +919,8 @@
                     {
                         "label": "CODIGO_FUENTE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/PI-videogames"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/PI-videogames/refs/heads/main/home.png"
@@ -897,7 +939,8 @@
                     {
                         "label": "CODIGO_FUENTE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/MarvelApp"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/MarvelApp/refs/heads/main/imgs/abomb.png"
@@ -917,7 +960,8 @@
                     {
                         "label": "CODIGO_FUENTE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/NicoRob92/FrontEcommerce"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/NicoRob92/FrontEcommerce/refs/heads/dev/imgs/home.jpeg"
@@ -936,7 +980,8 @@
                     {
                         "label": "CODIGO_FUENTE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/Pacman_Juego-2.0"
                     }
                 ],
                 "image": "https://raw.githubusercontent.com/Iron-mind/Pacman_Juego-2.0/refs/heads/master/pacman-preview.png"
@@ -953,7 +998,8 @@
                     {
                         "label": "CODIGO_FUENTE",
                         "icon": "code",
-                        "variant": "ghost"
+                        "variant": "ghost",
+                        "url": "https://github.com/Iron-mind/videojuego-cpp"
                     }
                 ],
                 "image": "https://user-images.githubusercontent.com/63685121/103682243-9aedf580-4f56-11eb-895a-2b249a7416bb.png"
