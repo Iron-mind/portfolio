@@ -177,6 +177,29 @@
   font-size: 1.1rem;
 }
 
+.timelineItem h4 a {
+  color: var(--primary-bright);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.timelineItem h4 a:hover {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+}
+
+.timelineItem h4 a::after {
+  content: ' ↗';
+  font-size: 0.75em;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.timelineItem h4 a:hover::after {
+  opacity: 1;
+}
+
 .timelineItem p {
   margin: 0;
   color: var(--text-muted);

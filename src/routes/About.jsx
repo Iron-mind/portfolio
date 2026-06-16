@@ -54,7 +54,15 @@ export default function About() {
                   <span>{item.period}</span>
                   <span>{item.role}</span>
                 </div>
-                <h4>{item.title}</h4>
+                <h4>
+                  {item.url ? (
+                    <a href={item.url} target="_blank" rel="noopener noreferrer">
+                      {item.title}
+                    </a>
+                  ) : (
+                    item.title
+                  )}
+                </h4>
                 {item.highlights ? (
                   <ul className={styles.highlights}>
                     {item.highlights.map((highlight, idx) => (
