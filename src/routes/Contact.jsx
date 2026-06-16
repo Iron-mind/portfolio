@@ -22,7 +22,12 @@ export default function Contact() {
               <span className="material-symbols-outlined">share</span>
               {locale.contactSection.linkedin}
             </a>
-            <a className={styles.ctaFill} href="#">
+            <a
+              className={styles.ctaFill}
+              href="https://drive.google.com/file/d/18bjGHiS35nPFY2H5A9ah-sYpoh6vfhin/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span className="material-symbols-outlined">download</span>
               {locale.contactSection.cv}
             </a>
@@ -31,7 +36,7 @@ export default function Contact() {
             <span className="material-symbols-outlined">mail</span>
             davidtovar.dev@gmail.com
           </a>
-          <div className={styles.metrics}>
+          {/* <div className={styles.metrics}>
             <div>
               <span>// {locale.contactSection.techStack}</span>
               <strong>{locale.contactSection.role}</strong>
@@ -40,7 +45,7 @@ export default function Contact() {
               <span>// {locale.contactSection.experience}</span>
               <strong>{yearsOfExperience}_YEARS</strong>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className={styles.panel}>

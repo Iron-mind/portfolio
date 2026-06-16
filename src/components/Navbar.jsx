@@ -56,9 +56,14 @@ export default function Navbar() {
             >
               {locale.nav.language}
             </button>
-            <button className={styles.langToggle} type="button">
+            <a
+              className={styles.langToggle}
+              href="https://drive.google.com/file/d/18bjGHiS35nPFY2H5A9ah-sYpoh6vfhin/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {locale.nav.downloadCv}
-            </button>
+            </a>
           </div>
         </div>
       </nav>
