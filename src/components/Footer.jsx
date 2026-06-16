@@ -9,8 +9,8 @@ export default function Footer() {
       <div className={styles.left}>{locale.footerLeft}</div>
       <div className={styles.links}>
         {locale.footerLinks.map((link) => (
-          <a href="#" key={link}>
-            {link}
+          <a href={link.url || '#'} key={link.label} target="_blank" rel="noopener noreferrer">
+            {link.label}
           </a>
         ))}
       </div>

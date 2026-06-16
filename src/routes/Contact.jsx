@@ -2,7 +2,7 @@ import { useLanguage } from '../context/useLanguage'
 import styles from './Contact.module.css'
 
 export default function Contact() {
-  const { locale, yearsOfExperience } = useLanguage()
+  const { locale } = useLanguage()
 
   return (
     <section className={styles.section}>
@@ -14,11 +14,21 @@ export default function Contact() {
           </div>
           <p>{locale.contactSection.aboutDescription}</p>
           <div className={styles.aboutActions}>
-            <a className={styles.ctaGhost} href="#">
+            <a
+              className={styles.ctaGhost}
+              href="https://github.com/Iron-mind"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span className="material-symbols-outlined">code</span>
               {locale.contactSection.github}
             </a>
-            <a className={styles.ctaGhost} href="#">
+            <a
+              className={styles.ctaGhost}
+              href="https://www.linkedin.com/in/david-tmontoya/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span className="material-symbols-outlined">share</span>
               {locale.contactSection.linkedin}
             </a>

@@ -552,11 +552,20 @@
             "NEST.JS",
             "VITE"
         ],
-        "footerLeft": "© 2024 SYSTEM_ARCHITECT. EXECUTE_SUCCESS.",
+        "footerLeft": "© 2026",
         "footerLinks": [
-            "GITHUB",
-            "LINKEDIN",
-            "TERMINAL"
+            {
+              "label": "GITHUB",
+              "url": "https://github.com/Iron-mind"
+            },
+            {
+              "label": "LINKEDIN",
+              "url": "https://www.linkedin.com/in/david-tmontoya/"
+            },
+            {
+              "label": "TERMINAL",
+              "url": null
+            }
         ]
     },
     "es": {
@@ -1111,11 +1120,20 @@
             "NEST.JS",
             "VITE"
         ],
-        "footerLeft": "© 2024 SYSTEM_ARCHITECT. EXECUTE_SUCCESS.",
+        "footerLeft": "© 2026",
         "footerLinks": [
-            "GITHUB",
-            "LINKEDIN",
-            "TERMINAL"
+            {
+              "label": "GITHUB",
+              "url": "https://github.com/Iron-mind"
+            },
+            {
+              "label": "LINKEDIN",
+              "url": "https://www.linkedin.com/in/david-tmontoya/"
+            },
+            {
+              "label": "TERMINAL",
+              "url": null
+            }
         ]
     }
 }
