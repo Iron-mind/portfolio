@@ -1,4 +1,4 @@
-import { useReducer } from 'react'
+import { useReducer, useEffect } from 'react'
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { LanguageProvider } from './context/LanguageContext'
 import MatrixCanvas from './components/MatrixCanvas'
@@ -9,6 +9,15 @@ import Projects from './routes/Projects'
 import About from './routes/About'
 import Contact from './routes/Contact'
 import styles from './App.module.css'
+
+/* ── Scroll to top on route change ── */
+function ScrollToTop() {
+  const { pathname } = useLocation()
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+  return null
+}
 
 /* ── Route transition wrapper ── */
 function pageTransitionReducer(state, action) {
@@ -73,6 +82,7 @@ export default function App() {
   return (
     <LanguageProvider>
       <BrowserRouter>
+        <ScrollToTop />
         <div className={styles.app}>
           <MatrixCanvas />
           <Navbar />

@@ -16,7 +16,7 @@ export default function Hero() {
         <h1 className={styles.title}>{locale.hero.title}</h1>
         <p className={styles.subtitle}>{locale.hero.subtitle}</p>
         <div className={styles.actions}>
-          <Link to="/projects" className={styles.ctaFill}>
+          <Link to="/projects" className={styles.ctaGhost}>
             <span className="material-symbols-outlined">folder_open</span>
             {locale.hero.actions.projects}
           </Link>

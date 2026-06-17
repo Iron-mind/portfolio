@@ -1,5 +1,42 @@
+import { useState } from 'react'
 import { useLanguage } from '../context/useLanguage'
 import styles from './Contact.module.css'
+
+function EmailButton() {
+  const [copied, setCopied] = useState(false)
+  const email = 'davidtovar.dev@gmail.com'
+
+  const isTouchDevice =
+    typeof window !== 'undefined' &&
+    (navigator.maxTouchPoints > 0 || 'ontouchstart' in window)
+
+  const handleClick = async () => {
+    if (isTouchDevice) {
+      window.location.href = `mailto:${email}`
+      return
+    }
+    try {
+      await navigator.clipboard.writeText(email)
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    } catch {
+      // fallback for older browsers
+      window.location.href = `mailto:${email}`
+    }
+  }
+
+  return (
+    <button
+      className={`${styles.emailButton} ${copied ? styles.emailCopied : ''}`}
+      type="button"
+      onClick={handleClick}
+      title={isTouchDevice ? `Send email to ${email}` : `Copy ${email} to clipboard`}
+    >
+      <span className="material-symbols-outlined">mail</span>
+      {copied ? '✓ Copied!' : email}
+    </button>
+  )
+}
 
 export default function Contact() {
   const { locale } = useLanguage()
@@ -42,10 +79,7 @@ export default function Contact() {
               {locale.contactSection.cv}
             </a>
           </div>
-          <a className={styles.emailLink} href="mailto:davidtovar.dev@gmail.com">
-            <span className="material-symbols-outlined">mail</span>
-            davidtovar.dev@gmail.com
-          </a>
+          <EmailButton />
           {/* <div className={styles.metrics}>
             <div>
               <span>// {locale.contactSection.techStack}</span>

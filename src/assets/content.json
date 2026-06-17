@@ -663,7 +663,7 @@
             },
             {
                 "code": "0x07 // MEDICAL_IMG",
-                "title": "VISOR DE IMÁGENES MÉDICAS",
+                "title": "Visor de Imágenes Medicas",
                 "description": "Procesador de imágenes médicas (formato NIfTI). Herramientas: segmentación (region growing), k-means, umbralizado, ecualización de histogramas, transformación z-score, detección de bordes y registro de imágenes.",
                 "tags": [
                     "React",
@@ -997,7 +997,7 @@
             },
             {
                 "code": "0x11 // command_line_game",
-                "title": "el juego de zorro-conejo-lechuga ",
+                "title": "El juego de zorro-conejo-lechuga ",
                 "description": "Clásico juego mental de cruzar un zorro, un conejo y una lechuga al otro lado del río usando una barca. Funciona por consola con POO en C++ puro.",
                 "tags": [
                     "C++",
