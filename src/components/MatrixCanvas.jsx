@@ -1,10 +1,44 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import styles from './MatrixCanvas.module.css'
 
-export default function MatrixCanvas() {
+export default function MatrixCanvas({ enabled = true }) {
   const canvasRef = useRef(null)
+  const [isHardwareAccelerated, setIsHardwareAccelerated] = useState(true)
 
+  /* ── Performance benchmark (runs once on mount) ── */
   useEffect(() => {
+    const bench = document.createElement('canvas')
+    bench.width = 300
+    bench.height = 300
+    const ctx = bench.getContext('2d')
+
+    const start = performance.now()
+    for (let i = 0; i < 100; i++) {
+      ctx.fillStyle = `rgba(168, 85, 247, ${Math.random() * 0.1})`
+      ctx.fillRect(
+        Math.random() * 300,
+        Math.random() * 300,
+        Math.random() * 80,
+        Math.random() * 80,
+      )
+      ctx.font = `${12 + Math.random() * 20}px monospace`
+      ctx.fillStyle = `hsl(${Math.random() * 360}, 70%, 60%)`
+      ctx.fillText('bench', Math.random() * 300, Math.random() * 300)
+    }
+    const elapsed = performance.now() - start
+
+    // Below 50 ms → hardware accelerated → keep animation
+    // Above 100 ms → software rendering → show fallback
+    // Between 50-100 ms → grey zone, keep animation
+    if (elapsed > 100) {
+      requestAnimationFrame(() => setIsHardwareAccelerated(false))
+    }
+  }, [])
+
+  /* ── Matrix rain animation ── */
+  useEffect(() => {
+    if (!enabled || !isHardwareAccelerated) return
+
     const canvas = canvasRef.current
     if (!canvas) return
 
@@ -60,7 +94,12 @@ export default function MatrixCanvas() {
       window.removeEventListener('resize', resize)
       window.cancelAnimationFrame(animationFrame)
     }
-  }, [])
+  }, [enabled, isHardwareAccelerated])
+
+  /* ── Fallback: static purple background ── */
+  if (!enabled || !isHardwareAccelerated) {
+    return <div className={styles.fallback} aria-hidden="true" />
+  }
 
   return <canvas className={styles.canvas} ref={canvasRef} aria-hidden="true" />
 }

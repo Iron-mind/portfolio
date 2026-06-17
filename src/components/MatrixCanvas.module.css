@@ -7,3 +7,14 @@
   pointer-events: none;
   z-index: 0;
 }
+
+.fallback {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: -1;
+  background: rgba(30, 9, 49, 0.7);
+  backdrop-filter: blur(8px);
+}
