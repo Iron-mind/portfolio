@@ -543,7 +543,10 @@
             "emailPlaceholder": "your@email.com",
             "dataPayload": "Message",
             "messagePlaceholder": "Write your message here...",
-            "send": "Submit"
+            "send": "Submit",
+            "successMessage": "Message sent successfully!",
+            "email": "davidtovar.dev@gmail.com",
+            "apiUrl": "https://67eb138134bcedd95f65681d.mockapi.io/requests"
         },
         "heroTicker": [
             "REACT.JS",
@@ -1111,7 +1114,10 @@
             "emailPlaceholder": "tu@email.com",
             "dataPayload": "Mensaje",
             "messagePlaceholder": "Escribe tu mensaje aqui...",
-            "send": "Enviar"
+            "send": "Enviar",
+            "successMessage": "¡Mensaje enviado con éxito!",
+            "email": "davidtovar.dev@gmail.com",
+            "apiUrl": "https://67eb138134bcedd95f65681d.mockapi.io/requests"
         },
         "heroTicker": [
             "REACT.JS",

@@ -2,9 +2,8 @@ import { useState } from 'react'
 import { useLanguage } from '../context/useLanguage'
 import styles from './Contact.module.css'
 
-function EmailButton() {
+function EmailButton({ email }) {
   const [copied, setCopied] = useState(false)
-  const email = 'davidtovar.dev@gmail.com'
 
   const isTouchDevice =
     typeof window !== 'undefined' &&
@@ -40,6 +39,24 @@ function EmailButton() {
 
 export default function Contact() {
   const { locale } = useLanguage()
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+  const [submitted, setSubmitted] = useState(false)
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    await fetch(locale.contactSection.apiUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, email, message }),
+    })
+    setName('')
+    setEmail('')
+    setMessage('')
+    setSubmitted(true)
+    setTimeout(() => setSubmitted(false), 3000)
+  }
 
   return (
     <section className={styles.section}>
@@ -79,17 +96,7 @@ export default function Contact() {
               {locale.contactSection.cv}
             </a>
           </div>
-          <EmailButton />
-          {/* <div className={styles.metrics}>
-            <div>
-              <span>// {locale.contactSection.techStack}</span>
-              <strong>{locale.contactSection.role}</strong>
-            </div>
-            <div>
-              <span>// {locale.contactSection.experience}</span>
-              <strong>{yearsOfExperience}_YEARS</strong>
-            </div>
-          </div> */}
+          <EmailButton email={locale.contactSection.email} />
         </div>
 
         <div className={styles.panel}>
@@ -97,19 +104,40 @@ export default function Contact() {
             <span className="material-symbols-outlined">alternate_email</span>
             <h2>{locale.contactSection.contactTitle}</h2>
           </div>
-          <form className={styles.form} onSubmit={(event) => event.preventDefault()}>
+          <form className={styles.form} onSubmit={handleSubmit}>
             <label>
               <span>{locale.contactSection.userId}</span>
-              <input placeholder={locale.contactSection.namePlaceholder} type="text" />
+              <input
+                placeholder={locale.contactSection.namePlaceholder}
+                type="text"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                required
+              />
             </label>
             <label>
               <span>{locale.contactSection.accessPoint}</span>
-              <input placeholder={locale.contactSection.emailPlaceholder} type="email" />
+              <input
+                placeholder={locale.contactSection.emailPlaceholder}
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
             </label>
             <label>
               <span>{locale.contactSection.dataPayload}</span>
-              <textarea placeholder={locale.contactSection.messagePlaceholder} rows="5" />
+              <textarea
+                placeholder={locale.contactSection.messagePlaceholder}
+                rows="5"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                required
+              />
             </label>
+            {submitted && (
+              <span className={styles.success}>{locale.contactSection.successMessage}</span>
+            )}
             <button className={styles.ctaFill} type="submit">
               <span>{locale.contactSection.send}</span>
               <span className="material-symbols-outlined">send</span>

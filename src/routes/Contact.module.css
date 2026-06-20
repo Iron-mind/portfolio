@@ -204,6 +204,13 @@
   justify-content: center;
 }
 
+.success {
+  color: #22c55e;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78rem;
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   .section {
     padding: 6rem 1.25rem 4rem;
