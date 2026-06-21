@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jdavidtovar.web.app/sitemap.xml
